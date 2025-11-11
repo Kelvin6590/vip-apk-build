@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="Dimensi_Maps">true</bool>
+    <bool name="bool_0x7f100001">true</bool>
+    <bool name="bool_0x7f100002">false</bool>
+    <bool name="bool_0x7f100003">true</bool>
+</resources>

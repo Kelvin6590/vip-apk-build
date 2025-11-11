@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="Dimensi_Maps">12451000</integer>
+    <integer name="integer_0x7f0d0001">2</integer>
+    <integer name="integer_0x7f0d0002">150</integer>
+    <integer name="integer_0x7f0d0003">150</integer>
+    <integer name="integer_0x7f0d0004">300</integer>
+    <integer name="integer_0x7f0d0005">320</integer>
+    <integer name="integer_0x7f0d0006">100</integer>
+    <integer name="integer_0x7f0d0007">100</integer>
+    <integer name="integer_0x7f0d0008">100</integer>
+    <integer name="integer_0x7f0d0009">250</integer>
+    <integer name="integer_0x7f0d000a">200</integer>
+    <integer name="integer_0x7f0d000b">127</integer>
+    <integer name="integer_0x7f0d000c">999</integer>
+    <integer name="integer_0x7f0d000d">220</integer>
+    <integer name="integer_0x7f0d000e">150</integer>
+    <integer name="integer_0x7f0d000f">150</integer>
+</resources>

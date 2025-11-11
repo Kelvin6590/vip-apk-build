@@ -1,0 +1,2103 @@
+<?xml version=""1.0"" encoding=""utf-8"?>"
+<resources>
+    <style name=""""Dimensi_Maps"""" parent=""@style/style_0x7f0f0001"" />
+    <style name=""""style_0x7f0f0001"""" parent=""@android:style/Widget">"
+        <item name=""""attr_0x7f010039""">@dimen/dimen_0x7f0a001c</item>"
+        <item name=""""attr_0x7f01003a""">@dimen/dimen_0x7f0a001b</item>"
+        <item name=""""attr_0x7f01003b""">@dimen/dimen_0x7f0a001b</item>"
+        <item name=""""attr_0x7f01003c""">false</item>"
+        <item name=""""attr_0x7f01003d""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f0002"""" parent=""@style/Dimensi_Maps">"
+        <item name=""""attr_0x7f010038""">@color/color_0x7f0e000e</item>"
+    </style>
+    <style name=""""style_0x7f0f0003"""" parent=""@style/Dimensi_Maps">"
+        <item name=""""attr_0x7f010038""">@color/color_0x7f0e000f</item>"
+    </style>
+    <style name=""""style_0x7f0f0004"""" parent=""@style/style_0x7f0f0026">"
+        <item name=""""attr_0x7f0100d0""">true</item>"
+        <item name=""""attr_0x7f0100d1""">id_0x7f0b004c</item>"
+        <item name=""""attr_0x7f0100d2""">id_0x7f0b004e</item>"
+    </style>
+    <style name=""""style_0x7f0f0005"""" parent=""@style/style_0x7f0f0047"" />
+    <style name=""""style_0x7f0f0006"""" parent=""@style/style_0x7f0f004f"" />
+    <style name=""""style_0x7f0f0007"""" parent=""@style/style_0x7f0f0168">"
+        <item name=""""android:textSize""">14.0sp</item>"
+        <item name=""""android:textStyle""">bold</item>"
+        <item name=""""android:textAllCaps""">true</item>"
+        <item name=""""android:fontFamily""">sans-serif-medium</item>"
+        <item name=""""attr_0x7f01017f""">sans-serif-medium</item>"
+    </style>
+    <style name=""""style_0x7f0f0008"""" parent=""@style/style_0x7f0f017f">"
+        <item name=""""android:textSize""">20.0sp</item>"
+        <item name=""""android:textStyle""">bold</item>"
+        <item name=""""android:textAllCaps""">false</item>"
+        <item name=""""android:fontFamily""">sans-serif-medium</item>"
+        <item name=""""attr_0x7f01017f""">sans-serif-medium</item>"
+    </style>
+    <style name=""""style_0x7f0f0009"""" parent=""@style/style_0x7f0f0165">"
+        <item name=""""android:textSize""">12.0sp</item>"
+        <item name=""""android:textStyle""">bold</item>"
+        <item name=""""android:textAllCaps""">true</item>"
+        <item name=""""android:fontFamily""">sans-serif-medium</item>"
+        <item name=""""attr_0x7f01017f""">sans-serif-medium</item>"
+    </style>
+    <style name=""""style_0x7f0f000a"""" parent=""@style/style_0x7f0f017d">"
+        <item name=""""android:textSize""">14.0sp</item>"
+        <item name=""""android:textStyle""">bold</item>"
+        <item name=""""android:textAllCaps""">false</item>"
+        <item name=""""android:fontFamily""">sans-serif-medium</item>"
+        <item name=""""attr_0x7f01017f""">sans-serif-medium</item>"
+    </style>
+    <style name=""""style_0x7f0f000b"""" parent=""@style/style_0x7f0f012d">"
+        <item name=""""android:windowEnterAnimation""">@anim/anim_0x7f06000d</item>"
+        <item name=""""android:windowExitAnimation""">@anim/anim_0x7f06000e</item>"
+    </style>
+    <style name=""""style_0x7f0f000c"""" parent=""@style/style_0x7f0f001d"" />
+    <style name=""""style_0x7f0f000d"""" parent=""@style/style_0x7f0f001e"" />
+    <style name=""""style_0x7f0f000e""">"
+        <item name=""""android:listViewStyle""">@style/style_0x7f0f01e0</item>"
+        <item name=""""android:windowAnimationStyle""">@style/style_0x7f0f012e</item>"
+        <item name=""""android:itemTextAppearance""">?android:textAppearanceMedium</item>"
+    </style>
+    <style name=""""style_0x7f0f000f"""" parent=""@style/style_0x7f0f001f"" />
+    <style name=""""style_0x7f0f0010"""" parent=""@style/style_0x7f0f000f">"
+        <item name=""""attr_0x7f01018b""">@dimen/dimen_0x7f0a009c</item>"
+        <item name=""""attr_0x7f01018c""">@dimen/dimen_0x7f0a009d</item>"
+    </style>
+    <style name=""""style_0x7f0f0011"""" parent=""@style/style_0x7f0f000f">"
+        <item name=""""attr_0x7f010187""">@dimen/dimen_0x7f0a009a</item>"
+        <item name=""""attr_0x7f010188""">@dimen/dimen_0x7f0a0099</item>"
+        <item name=""""attr_0x7f010189""">@dimen/dimen_0x7f0a009b</item>"
+        <item name=""""attr_0x7f01018a""">@dimen/dimen_0x7f0a0098</item>"
+    </style>
+    <style name=""""style_0x7f0f0012"""" parent=""@style/style_0x7f0f000f">"
+        <item name=""""attr_0x7f01018b""">@dimen/dimen_0x7f0a009c</item>"
+        <item name=""""attr_0x7f01018c""">@dimen/dimen_0x7f0a009d</item>"
+    </style>
+    <style name=""""style_0x7f0f0013"""" parent=""@style/style_0x7f0f0020"" />
+    <style name=""""style_0x7f0f0014"""" parent=""@style/style_0x7f0f0021"" />
+    <style name=""""style_0x7f0f0015"""" parent=""@style/style_0x7f0f0013">"
+        <item name=""""attr_0x7f010192""">@style/style_0x7f0f0062</item>"
+        <item name=""""attr_0x7f010195""">@style/style_0x7f0f005f</item>"
+        <item name=""""attr_0x7f010196""">@null</item>"
+        <item name=""""attr_0x7f0101d5""">@drawable/drawable_0x7f020032</item>"
+        <item name=""""attr_0x7f0101d6""">@color/color_0x7f0e0056</item>"
+        <item name=""""attr_0x7f0101d7""">@color/color_0x7f0e0054</item>"
+    </style>
+    <style name=""""style_0x7f0f0016"""" parent=""@style/style_0x7f0f0022"" />
+    <style name=""""style_0x7f0f0017"""" parent=""@style/style_0x7f0f0023"" />
+    <style name=""""style_0x7f0f0018"""" parent=""@style/style_0x7f0f0017">"
+        <item name=""""attr_0x7f01018b""">@dimen/dimen_0x7f0a009c</item>"
+        <item name=""""attr_0x7f01018c""">@dimen/dimen_0x7f0a009d</item>"
+    </style>
+    <style name=""""style_0x7f0f0019"""" parent=""@style/style_0x7f0f0017">"
+        <item name=""""attr_0x7f010187""">@dimen/dimen_0x7f0a009a</item>"
+        <item name=""""attr_0x7f010188""">@dimen/dimen_0x7f0a0099</item>"
+        <item name=""""attr_0x7f010189""">@dimen/dimen_0x7f0a009b</item>"
+        <item name=""""attr_0x7f01018a""">@dimen/dimen_0x7f0a0098</item>"
+    </style>
+    <style name=""""style_0x7f0f001a"""" parent=""@style/style_0x7f0f0017">"
+        <item name=""""attr_0x7f01018b""">@dimen/dimen_0x7f0a009c</item>"
+        <item name=""""attr_0x7f01018c""">@dimen/dimen_0x7f0a009d</item>"
+    </style>
+    <style name=""""style_0x7f0f001b"""" parent=""@style/style_0x7f0f0024"" />
+    <style name=""""style_0x7f0f001c"""" parent=""@style/style_0x7f0f0025"" />
+    <style name=""""style_0x7f0f001d"""" parent=""@style/style_0x7f0f001e">"
+        <item name=""""attr_0x7f010043""">@style/style_0x7f0f0071</item>"
+        <item name=""""attr_0x7f010044""">@style/style_0x7f0f0074</item>"
+        <item name=""""attr_0x7f010047""">@style/style_0x7f0f0085</item>"
+        <item name=""""attr_0x7f010048""">@style/style_0x7f0f0083</item>"
+        <item name=""""attr_0x7f010049""">@style/style_0x7f0f0081</item>"
+        <item name=""""attr_0x7f01004b""">@style/style_0x7f0f0086</item>"
+        <item name=""""attr_0x7f01004d""">@style/style_0x7f0f0076</item>"
+        <item name=""""attr_0x7f01004e""">@style/style_0x7f0f0080</item>"
+        <item name=""""attr_0x7f01004f""">@style/style_0x7f0f0087</item>"
+        <item name=""""attr_0x7f010055""">@style/style_0x7f0f008b</item>"
+        <item name=""""attr_0x7f010063""">@style/style_0x7f0f0070</item>"
+        <item name=""""attr_0x7f0100c6""">@style/style_0x7f0f0088</item>"
+        <item name=""""attr_0x7f0100c7""">?attr_0x7f0101b9</item>"
+        <item name=""""attr_0x7f0101b9""">@style/style_0x7f0f007a</item>"
+        <item name=""""attr_0x7f0101bd""">@style/style_0x7f0f0094</item>"
+        <item name=""""attr_0x7f0101d6""">@color/color_0x7f0e0013</item>"
+        <item name=""""attr_0x7f0101d7""">@color/color_0x7f0e0014</item>"
+        <item name=""""attr_0x7f0101d8""">?attr_0x7f01004a</item>"
+        <item name=""""attr_0x7f0101e3""">@style/style_0x7f0f0061</item>"
+        <item name=""""attr_0x7f0101f9""">com.google.android.material.theme.MaterialComponentsViewInflater</item>"
+    </style>
+    <style name=""""style_0x7f0f001e"""" parent=""@style/style_0x7f0f002a">"
+        <item name=""""attr_0x7f01004a""">?attr_0x7f0101d6</item>"
+        <item name=""""attr_0x7f010051""">@color/color_0x7f0e0020</item>"
+        <item name=""""attr_0x7f010056""">@style/style_0x7f0f0036</item>"
+        <item name=""""attr_0x7f010057""">@style/style_0x7f0f0037</item>"
+        <item name=""""attr_0x7f010058""">@style/style_0x7f0f0007</item>"
+        <item name=""""attr_0x7f010059""">@style/style_0x7f0f0038</item>"
+        <item name=""""attr_0x7f01005a""">@style/style_0x7f0f003a</item>"
+        <item name=""""attr_0x7f01005b""">@style/style_0x7f0f003b</item>"
+        <item name=""""attr_0x7f01005c""">@style/style_0x7f0f003c</item>"
+        <item name=""""attr_0x7f01005d""">@style/style_0x7f0f003d</item>"
+        <item name=""""attr_0x7f01005e""">@style/style_0x7f0f003e</item>"
+        <item name=""""attr_0x7f01005f""">@style/style_0x7f0f0008</item>"
+        <item name=""""attr_0x7f010060""">@style/style_0x7f0f0009</item>"
+        <item name=""""attr_0x7f010061""">@style/style_0x7f0f003f</item>"
+        <item name=""""attr_0x7f010062""">@style/style_0x7f0f000a</item>"
+    </style>
+    <style name=""""style_0x7f0f001f"""" parent=""@style/style_0x7f0f002b">"
+        <item name=""""attr_0x7f010043""">@style/style_0x7f0f0071</item>"
+        <item name=""""attr_0x7f010044""">@style/style_0x7f0f0074</item>"
+        <item name=""""attr_0x7f010047""">@style/style_0x7f0f0085</item>"
+        <item name=""""attr_0x7f010048""">@style/style_0x7f0f0083</item>"
+        <item name=""""attr_0x7f010049""">@style/style_0x7f0f0081</item>"
+        <item name=""""attr_0x7f01004a""">?attr_0x7f0101d6</item>"
+        <item name=""""attr_0x7f01004b""">@style/style_0x7f0f0086</item>"
+        <item name=""""attr_0x7f01004d""">@style/style_0x7f0f0076</item>"
+        <item name=""""attr_0x7f01004e""">@style/style_0x7f0f0080</item>"
+        <item name=""""attr_0x7f01004f""">@style/style_0x7f0f0087</item>"
+        <item name=""""attr_0x7f010051""">@color/color_0x7f0e0020</item>"
+        <item name=""""attr_0x7f010055""">@style/style_0x7f0f008b</item>"
+        <item name=""""attr_0x7f010056""">@style/style_0x7f0f0036</item>"
+        <item name=""""attr_0x7f010057""">@style/style_0x7f0f0037</item>"
+        <item name=""""attr_0x7f010058""">@style/style_0x7f0f0007</item>"
+        <item name=""""attr_0x7f010059""">@style/style_0x7f0f0038</item>"
+        <item name=""""attr_0x7f01005a""">@style/style_0x7f0f003a</item>"
+        <item name=""""attr_0x7f01005b""">@style/style_0x7f0f003b</item>"
+        <item name=""""attr_0x7f01005c""">@style/style_0x7f0f003c</item>"
+        <item name=""""attr_0x7f01005d""">@style/style_0x7f0f003d</item>"
+        <item name=""""attr_0x7f01005e""">@style/style_0x7f0f003e</item>"
+        <item name=""""attr_0x7f01005f""">@style/style_0x7f0f0008</item>"
+        <item name=""""attr_0x7f010060""">@style/style_0x7f0f0009</item>"
+        <item name=""""attr_0x7f010061""">@style/style_0x7f0f003f</item>"
+        <item name=""""attr_0x7f010062""">@style/style_0x7f0f000a</item>"
+        <item name=""""attr_0x7f010063""">@style/style_0x7f0f0070</item>"
+        <item name=""""attr_0x7f0100c6""">@style/style_0x7f0f0088</item>"
+        <item name=""""attr_0x7f0100c7""">?attr_0x7f0101b9</item>"
+        <item name=""""attr_0x7f0101b6""">@style/style_0x7f0f007b</item>"
+        <item name=""""attr_0x7f0101b9""">@style/style_0x7f0f007a</item>"
+        <item name=""""attr_0x7f0101bd""">@style/style_0x7f0f0094</item>"
+        <item name=""""attr_0x7f0101d6""">@color/color_0x7f0e0013</item>"
+        <item name=""""attr_0x7f0101d7""">@color/color_0x7f0e0014</item>"
+        <item name=""""attr_0x7f0101d8""">?attr_0x7f01004a</item>"
+        <item name=""""attr_0x7f0101f9""">com.google.android.material.theme.MaterialComponentsViewInflater</item>"
+    </style>
+    <style name=""""style_0x7f0f0020"""" parent=""@style/style_0x7f0f0021">"
+        <item name=""""attr_0x7f010043""">@style/style_0x7f0f0071</item>"
+        <item name=""""attr_0x7f010044""">@style/style_0x7f0f0073</item>"
+        <item name=""""attr_0x7f010047""">@style/style_0x7f0f0085</item>"
+        <item name=""""attr_0x7f010048""">@style/style_0x7f0f0083</item>"
+        <item name=""""attr_0x7f010049""">@style/style_0x7f0f0081</item>"
+        <item name=""""attr_0x7f01004b""">@style/style_0x7f0f0086</item>"
+        <item name=""""attr_0x7f01004d""">@style/style_0x7f0f0076</item>"
+        <item name=""""attr_0x7f01004e""">@style/style_0x7f0f0080</item>"
+        <item name=""""attr_0x7f01004f""">@style/style_0x7f0f0087</item>"
+        <item name=""""attr_0x7f010055""">@style/style_0x7f0f008a</item>"
+        <item name=""""attr_0x7f010063""">@style/style_0x7f0f0070</item>"
+        <item name=""""attr_0x7f0100c6""">@style/style_0x7f0f0088</item>"
+        <item name=""""attr_0x7f0100c7""">?attr_0x7f0101b9</item>"
+        <item name=""""attr_0x7f0101b9""">@style/style_0x7f0f007a</item>"
+        <item name=""""attr_0x7f0101bd""">@style/style_0x7f0f0094</item>"
+        <item name=""""attr_0x7f0101d6""">@color/color_0x7f0e0013</item>"
+        <item name=""""attr_0x7f0101d7""">@color/color_0x7f0e0014</item>"
+        <item name=""""attr_0x7f0101d8""">?attr_0x7f01004a</item>"
+        <item name=""""attr_0x7f0101e3""">@style/style_0x7f0f0061</item>"
+        <item name=""""attr_0x7f0101f9""">com.google.android.material.theme.MaterialComponentsViewInflater</item>"
+    </style>
+    <style name=""""style_0x7f0f0021"""" parent=""@style/style_0x7f0f002c">"
+        <item name=""""attr_0x7f01004a""">?attr_0x7f0101d6</item>"
+        <item name=""""attr_0x7f010051""">@color/color_0x7f0e0020</item>"
+        <item name=""""attr_0x7f010056""">@style/style_0x7f0f0036</item>"
+        <item name=""""attr_0x7f010057""">@style/style_0x7f0f0037</item>"
+        <item name=""""attr_0x7f010058""">@style/style_0x7f0f0007</item>"
+        <item name=""""attr_0x7f010059""">@style/style_0x7f0f0038</item>"
+        <item name=""""attr_0x7f01005a""">@style/style_0x7f0f003a</item>"
+        <item name=""""attr_0x7f01005b""">@style/style_0x7f0f003b</item>"
+        <item name=""""attr_0x7f01005c""">@style/style_0x7f0f003c</item>"
+        <item name=""""attr_0x7f01005d""">@style/style_0x7f0f003d</item>"
+        <item name=""""attr_0x7f01005e""">@style/style_0x7f0f003e</item>"
+        <item name=""""attr_0x7f01005f""">@style/style_0x7f0f0008</item>"
+        <item name=""""attr_0x7f010060""">@style/style_0x7f0f0009</item>"
+        <item name=""""attr_0x7f010061""">@style/style_0x7f0f003f</item>"
+        <item name=""""attr_0x7f010062""">@style/style_0x7f0f000a</item>"
+    </style>
+    <style name=""""style_0x7f0f0022"""" parent=""@style/style_0x7f0f019e">"
+        <item name=""""attr_0x7f01004a""">?attr_0x7f0101d6</item>"
+        <item name=""""attr_0x7f010051""">@color/color_0x7f0e0020</item>"
+        <item name=""""attr_0x7f010056""">@style/style_0x7f0f0036</item>"
+        <item name=""""attr_0x7f010057""">@style/style_0x7f0f0037</item>"
+        <item name=""""attr_0x7f010058""">@style/style_0x7f0f0007</item>"
+        <item name=""""attr_0x7f010059""">@style/style_0x7f0f0038</item>"
+        <item name=""""attr_0x7f01005a""">@style/style_0x7f0f003a</item>"
+        <item name=""""attr_0x7f01005b""">@style/style_0x7f0f003b</item>"
+        <item name=""""attr_0x7f01005c""">@style/style_0x7f0f003c</item>"
+        <item name=""""attr_0x7f01005d""">@style/style_0x7f0f003d</item>"
+        <item name=""""attr_0x7f01005e""">@style/style_0x7f0f003e</item>"
+        <item name=""""attr_0x7f01005f""">@style/style_0x7f0f0008</item>"
+        <item name=""""attr_0x7f010060""">@style/style_0x7f0f0009</item>"
+        <item name=""""attr_0x7f010061""">@style/style_0x7f0f003f</item>"
+        <item name=""""attr_0x7f010062""">@style/style_0x7f0f000a</item>"
+    </style>
+    <style name=""""style_0x7f0f0023"""" parent=""@style/style_0x7f0f002d">"
+        <item name=""""attr_0x7f010043""">@style/style_0x7f0f0071</item>"
+        <item name=""""attr_0x7f010044""">@style/style_0x7f0f0073</item>"
+        <item name=""""attr_0x7f010047""">@style/style_0x7f0f0085</item>"
+        <item name=""""attr_0x7f010048""">@style/style_0x7f0f0083</item>"
+        <item name=""""attr_0x7f010049""">@style/style_0x7f0f0081</item>"
+        <item name=""""attr_0x7f01004a""">?attr_0x7f0101d6</item>"
+        <item name=""""attr_0x7f01004b""">@style/style_0x7f0f0086</item>"
+        <item name=""""attr_0x7f01004d""">@style/style_0x7f0f0076</item>"
+        <item name=""""attr_0x7f01004e""">@style/style_0x7f0f0080</item>"
+        <item name=""""attr_0x7f01004f""">@style/style_0x7f0f0087</item>"
+        <item name=""""attr_0x7f010051""">@color/color_0x7f0e0020</item>"
+        <item name=""""attr_0x7f010055""">@style/style_0x7f0f008a</item>"
+        <item name=""""attr_0x7f010056""">@style/style_0x7f0f0036</item>"
+        <item name=""""attr_0x7f010057""">@style/style_0x7f0f0037</item>"
+        <item name=""""attr_0x7f010058""">@style/style_0x7f0f0007</item>"
+        <item name=""""attr_0x7f010059""">@style/style_0x7f0f0038</item>"
+        <item name=""""attr_0x7f01005a""">@style/style_0x7f0f003a</item>"
+        <item name=""""attr_0x7f01005b""">@style/style_0x7f0f003b</item>"
+        <item name=""""attr_0x7f01005c""">@style/style_0x7f0f003c</item>"
+        <item name=""""attr_0x7f01005d""">@style/style_0x7f0f003d</item>"
+        <item name=""""attr_0x7f01005e""">@style/style_0x7f0f003e</item>"
+        <item name=""""attr_0x7f01005f""">@style/style_0x7f0f0008</item>"
+        <item name=""""attr_0x7f010060""">@style/style_0x7f0f0009</item>"
+        <item name=""""attr_0x7f010061""">@style/style_0x7f0f003f</item>"
+        <item name=""""attr_0x7f010062""">@style/style_0x7f0f000a</item>"
+        <item name=""""attr_0x7f010063""">@style/style_0x7f0f0070</item>"
+        <item name=""""attr_0x7f0100c6""">@style/style_0x7f0f0088</item>"
+        <item name=""""attr_0x7f0100c7""">?attr_0x7f0101b9</item>"
+        <item name=""""attr_0x7f0101b6""">@style/style_0x7f0f007b</item>"
+        <item name=""""attr_0x7f0101b9""">@style/style_0x7f0f007a</item>"
+        <item name=""""attr_0x7f0101bd""">@style/style_0x7f0f0094</item>"
+        <item name=""""attr_0x7f0101d6""">@color/color_0x7f0e0013</item>"
+        <item name=""""attr_0x7f0101d7""">@color/color_0x7f0e0014</item>"
+        <item name=""""attr_0x7f0101d8""">?attr_0x7f01004a</item>"
+        <item name=""""attr_0x7f0101f9""">com.google.android.material.theme.MaterialComponentsViewInflater</item>"
+    </style>
+    <style name=""""style_0x7f0f0024"""" parent=""@style/style_0x7f0f01a9">"
+        <item name=""""attr_0x7f01004d""">@style/style_0x7f0f007b</item>"
+    </style>
+    <style name=""""style_0x7f0f0025"""" parent=""@style/style_0x7f0f01aa">"
+        <item name=""""attr_0x7f0101b6""">@style/style_0x7f0f007b</item>"
+    </style>
+    <style name=""""style_0x7f0f0026"""" parent=""@android:style/Widget">"
+        <item name=""""android:background""">@null</item>"
+        <item name=""""attr_0x7f0100c9""">?attr_0x7f0101d8</item>"
+        <item name=""""attr_0x7f0100cd""">@drawable/drawable_0x7f020085</item>"
+        <item name=""""attr_0x7f0100ce""">id_0x7f0b0042</item>"
+        <item name=""""attr_0x7f0100cf""">@integer/integer_0x7f0d0004</item>"
+        <item name=""""attr_0x7f0100d5""">@dimen/dimen_0x7f0a0045</item>"
+        <item name=""""attr_0x7f0100d6""">@style/style_0x7f0f0035</item>"
+        <item name=""""attr_0x7f0100d9""">12.0dip</item>"
+        <item name=""""attr_0x7f0100db""">12.0dip</item>"
+        <item name=""""attr_0x7f0100de""">@null</item>"
+        <item name=""""attr_0x7f0100e0""">?attr_0x7f0101db</item>"
+        <item name=""""attr_0x7f0100e1""">false</item>"
+    </style>
+    <style name=""""style_0x7f0f0027"""" parent=""@android:style/Widget">"
+        <item name=""""android:textAppearance""">?attr_0x7f010057</item>"
+        <item name=""""android:textColor""">@color/color_0x7f0e0090</item>"
+        <item name=""""android:focusable""">true</item>"
+        <item name=""""android:clickable""">true</item>"
+        <item name=""""android:text""">@null</item>"
+        <item name=""""android:checkable""">false</item>"
+        <item name=""""attr_0x7f010050""">@color/color_0x7f0e008f</item>"
+        <item name=""""attr_0x7f01007a""">@color/color_0x7f0e008d</item>"
+        <item name=""""attr_0x7f01007b""">32.0dip</item>"
+        <item name=""""attr_0x7f01007c""">16.0dip</item>"
+        <item name=""""attr_0x7f01007d""">#00000000</item>"
+        <item name=""""attr_0x7f01007e""">0.0dip</item>"
+        <item name=""""attr_0x7f01007f""">true</item>"
+        <item name=""""attr_0x7f010081""">@null</item>"
+        <item name=""""attr_0x7f010083""">24.0dip</item>"
+        <item name=""""attr_0x7f010084""">true</item>"
+        <item name=""""attr_0x7f010086""">@drawable/drawable_0x7f02007e</item>"
+        <item name=""""attr_0x7f010087""">@color/color_0x7f0e008e</item>"
+        <item name=""""attr_0x7f010088""">18.0dip</item>"
+        <item name=""""attr_0x7f010089""">true</item>"
+        <item name=""""attr_0x7f01008b""">@drawable/drawable_0x7f02007d</item>"
+        <item name=""""attr_0x7f01008c""">4.0dip</item>"
+        <item name=""""attr_0x7f01008d""">0.0dip</item>"
+        <item name=""""attr_0x7f01008e""">0.0dip</item>"
+        <item name=""""attr_0x7f01008f""">8.0dip</item>"
+        <item name=""""attr_0x7f010090""">6.0dip</item>"
+        <item name=""""attr_0x7f010091""">2.0dip</item>"
+        <item name=""""attr_0x7f010092""">2.0dip</item>"
+        <item name=""""attr_0x7f010093""">6.0dip</item>"
+        <item name=""""attr_0x7f0100fd""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f0028"""" parent=""@style/style_0x7f0f01c4">"
+        <item name=""""android:paddingLeft""">12.0dip</item>"
+        <item name=""""android:paddingTop""">16.0dip</item>"
+        <item name=""""android:paddingRight""">12.0dip</item>"
+        <item name=""""android:paddingBottom""">16.0dip</item>"
+        <item name=""""android:paddingStart""">12.0dip</item>"
+        <item name=""""android:paddingEnd""">12.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f0029"""" parent=""@style/style_0x7f0f0070">"
+        <item name=""""attr_0x7f0100f3""">id_0x7f0b0056</item>"
+        <item name=""""attr_0x7f0100f4""">0.0dip</item>"
+        <item name=""""attr_0x7f0100f5""">@dimen/dimen_0x7f0a0071</item>"
+        <item name=""""attr_0x7f0100f6""">@dimen/dimen_0x7f0a0071</item>"
+        <item name=""""attr_0x7f0100f7""">@dimen/dimen_0x7f0a0071</item>"
+        <item name=""""attr_0x7f0100f8""">@dimen/dimen_0x7f0a0071</item>"
+        <item name=""""attr_0x7f0100f9""">?attr_0x7f0101da</item>"
+        <item name=""""attr_0x7f0100fa""">@null</item>"
+    </style>
+    <style name=""""style_0x7f0f002a"""" parent=""@style/style_0x7f0f0197"" />
+    <style name=""""style_0x7f0f002b"""" parent=""@style/style_0x7f0f0199"" />
+    <style name=""""style_0x7f0f002c"""" parent=""@style/style_0x7f0f019d"" />
+    <style name=""""style_0x7f0f002d"""" parent=""@style/style_0x7f0f019f"" />
+    <style name=""""style_0x7f0f002e"""" parent=""@style/style_0x7f0f016a">"
+        <item name=""""android:textColor""">?android:textColorPrimary</item>"
+    </style>
+    <style name=""""style_0x7f0f002f"""" parent=""@style/style_0x7f0f0169"" />
+    <style name=""""style_0x7f0f0030"""" parent=""@style/style_0x7f0f0169">"
+        <item name=""""android:textColor""">@color/color_0x7f0e0084</item>"
+    </style>
+    <style name=""""style_0x7f0f0031"""" parent=""@style/style_0x7f0f0169">"
+        <item name=""""android:textColor""">@color/color_0x7f0e0084</item>"
+    </style>
+    <style name=""""style_0x7f0f0032"""" parent=""@style/style_0x7f0f0169"" />
+    <style name=""""style_0x7f0f0033"""" parent=""@style/style_0x7f0f0169">"
+        <item name=""""android:textColor""">?attr_0x7f0101da</item>"
+    </style>
+    <style name=""""style_0x7f0f0034"""" parent=""@android:style/TextAppearance">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a0044</item>"
+        <item name=""""android:textColor""">?android:textColorPrimary</item>"
+    </style>
+    <style name=""""style_0x7f0f0035"""" parent=""@style/style_0x7f0f0168">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a0046</item>"
+        <item name=""""android:textColor""">@color/color_0x7f0e0095</item>"
+        <item name=""""attr_0x7f010179""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f0036"""" parent=""@style/style_0x7f0f0167">"
+        <item name=""""android:textSize""">16.0sp</item>"
+        <item name=""""android:textStyle""">normal</item>"
+        <item name=""""android:textAllCaps""">false</item>"
+        <item name=""""android:fontFamily""">sans-serif</item>"
+        <item name=""""attr_0x7f01017f""">sans-serif</item>"
+    </style>
+    <style name=""""style_0x7f0f0037"""" parent=""@style/style_0x7f0f0166">"
+        <item name=""""android:textSize""">14.0sp</item>"
+        <item name=""""android:textStyle""">normal</item>"
+        <item name=""""android:textAllCaps""">false</item>"
+        <item name=""""android:fontFamily""">sans-serif</item>"
+        <item name=""""attr_0x7f01017f""">sans-serif</item>"
+    </style>
+    <style name=""""style_0x7f0f0038"""" parent=""@style/style_0x7f0f0169">"
+        <item name=""""android:textSize""">12.0sp</item>"
+        <item name=""""android:textStyle""">normal</item>"
+        <item name=""""android:textAllCaps""">false</item>"
+        <item name=""""android:fontFamily""">sans-serif</item>"
+        <item name=""""attr_0x7f01017f""">sans-serif</item>"
+    </style>
+    <style name=""""style_0x7f0f0039"""" parent=""@style/style_0x7f0f0165">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a0067</item>"
+        <item name=""""android:textColor""">@color/color_0x7f0e0090</item>"
+    </style>
+    <style name=""""style_0x7f0f003a"""" parent=""@style/style_0x7f0f016d">"
+        <item name=""""android:textSize""">96.0sp</item>"
+        <item name=""""android:textStyle""">normal</item>"
+        <item name=""""android:textAllCaps""">false</item>"
+        <item name=""""android:fontFamily""">sans-serif-light</item>"
+        <item name=""""attr_0x7f01017f""">sans-serif-light</item>"
+    </style>
+    <style name=""""style_0x7f0f003b"""" parent=""@style/style_0x7f0f016c">"
+        <item name=""""android:textSize""">60.0sp</item>"
+        <item name=""""android:textStyle""">normal</item>"
+        <item name=""""android:textAllCaps""">false</item>"
+        <item name=""""android:fontFamily""">sans-serif-light</item>"
+        <item name=""""attr_0x7f01017f""">sans-serif-light</item>"
+    </style>
+    <style name=""""style_0x7f0f003c"""" parent=""@style/style_0x7f0f016b">"
+        <item name=""""android:textSize""">48.0sp</item>"
+        <item name=""""android:textStyle""">normal</item>"
+        <item name=""""android:textAllCaps""">false</item>"
+        <item name=""""android:fontFamily""">sans-serif</item>"
+        <item name=""""attr_0x7f01017f""">sans-serif</item>"
+    </style>
+    <style name=""""style_0x7f0f003d"""" parent=""@style/style_0x7f0f016a">"
+        <item name=""""android:textSize""">34.0sp</item>"
+        <item name=""""android:textStyle""">normal</item>"
+        <item name=""""android:textAllCaps""">false</item>"
+        <item name=""""android:fontFamily""">sans-serif</item>"
+        <item name=""""attr_0x7f01017f""">sans-serif</item>"
+    </style>
+    <style name=""""style_0x7f0f003e"""" parent=""@style/style_0x7f0f016e">"
+        <item name=""""android:textSize""">24.0sp</item>"
+        <item name=""""android:textStyle""">normal</item>"
+        <item name=""""android:textAllCaps""">false</item>"
+        <item name=""""android:fontFamily""">sans-serif</item>"
+        <item name=""""attr_0x7f01017f""">sans-serif</item>"
+    </style>
+    <style name=""""style_0x7f0f003f"""" parent=""@style/style_0x7f0f017d">"
+        <item name=""""android:textSize""">16.0sp</item>"
+        <item name=""""android:textStyle""">normal</item>"
+        <item name=""""android:textAllCaps""">false</item>"
+        <item name=""""android:fontFamily""">sans-serif</item>"
+        <item name=""""attr_0x7f01017f""">sans-serif</item>"
+    </style>
+    <style name=""""style_0x7f0f0040"""" parent=""@style/style_0x7f0f0035">"
+        <item name=""""android:textColor""">@color/color_0x7f0e0093</item>"
+    </style>
+    <style name=""""style_0x7f0f0041"""" parent=""@style/style_0x7f0f0197"" />
+    <style name=""""style_0x7f0f0042"""" parent=""@style/style_0x7f0f0199">"
+        <item name=""""android:windowBackground""">@android:color/transparent</item>"
+        <item name=""""android:windowAnimationStyle""">@style/style_0x7f0f000b</item>"
+        <item name=""""attr_0x7f010046""">@style/style_0x7f0f006a</item>"
+    </style>
+    <style name=""""style_0x7f0f0043"""" parent=""@style/style_0x7f0f019d"" />
+    <style name=""""style_0x7f0f0044"""" parent=""@style/style_0x7f0f019f">"
+        <item name=""""android:windowBackground""">@android:color/transparent</item>"
+        <item name=""""android:windowAnimationStyle""">@style/style_0x7f0f000b</item>"
+        <item name=""""attr_0x7f010046""">@style/style_0x7f0f006a</item>"
+    </style>
+    <style name=""""style_0x7f0f0045"""" parent=""@style/style_0x7f0f0043">"
+        <item name=""""attr_0x7f010183""">false</item>"
+        <item name=""""attr_0x7f010184""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f0046"""" parent=""@style/style_0x7f0f0041">"
+        <item name=""""attr_0x7f010183""">false</item>"
+        <item name=""""attr_0x7f010184""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f0047"""" parent=""@style/style_0x7f0f000c"" />
+    <style name=""""style_0x7f0f0048"""" parent=""@style/style_0x7f0f004b">"
+        <item name=""""android:windowBackground""">@android:color/transparent</item>"
+        <item name=""""android:windowAnimationStyle""">@style/style_0x7f0f000b</item>"
+        <item name=""""attr_0x7f010046""">@style/style_0x7f0f006a</item>"
+    </style>
+    <style name=""""style_0x7f0f0049"""" parent=""@style/style_0x7f0f000d"" />
+    <style name=""""style_0x7f0f004a"""" parent=""@style/style_0x7f0f000e"" />
+    <style name=""""style_0x7f0f004b"""" parent=""@style/style_0x7f0f000f"" />
+    <style name=""""style_0x7f0f004c"""" parent=""@style/style_0x7f0f0010"" />
+    <style name=""""style_0x7f0f004d"""" parent=""@style/style_0x7f0f0012"" />
+    <style name=""""style_0x7f0f004e"""" parent=""@style/style_0x7f0f0005"" />
+    <style name=""""style_0x7f0f004f"""" parent=""@style/style_0x7f0f0013"" />
+    <style name=""""style_0x7f0f0050"""" parent=""@style/style_0x7f0f0054">"
+        <item name=""""android:windowBackground""">@android:color/transparent</item>"
+        <item name=""""android:windowAnimationStyle""">@style/style_0x7f0f000b</item>"
+        <item name=""""attr_0x7f010046""">@style/style_0x7f0f006a</item>"
+    </style>
+    <style name=""""style_0x7f0f0051"""" parent=""@style/style_0x7f0f0014"" />
+    <style name=""""style_0x7f0f0052"""" parent=""@style/style_0x7f0f0015"" />
+    <style name=""""style_0x7f0f0053"""" parent=""@style/style_0x7f0f0016"" />
+    <style name=""""style_0x7f0f0054"""" parent=""@style/style_0x7f0f0017"" />
+    <style name=""""style_0x7f0f0055"""" parent=""@style/style_0x7f0f0018"" />
+    <style name=""""style_0x7f0f0056"""" parent=""@style/style_0x7f0f001a"" />
+    <style name=""""style_0x7f0f0057"""" parent=""@style/style_0x7f0f0006"" />
+    <style name=""""style_0x7f0f0058"""" parent=""@style/style_0x7f0f004f">"
+        <item name=""""attr_0x7f010183""">false</item>"
+        <item name=""""attr_0x7f010184""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f0059"""" parent=""@style/style_0x7f0f0051">"
+        <item name=""""attr_0x7f010183""">false</item>"
+        <item name=""""attr_0x7f010184""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f005a"""" parent=""@style/style_0x7f0f0047">"
+        <item name=""""attr_0x7f010183""">false</item>"
+        <item name=""""attr_0x7f010184""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f005b"""" parent=""@style/style_0x7f0f0049">"
+        <item name=""""attr_0x7f010183""">false</item>"
+        <item name=""""attr_0x7f010184""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f005c"""" parent=""@style/style_0x7f0f01a5"" />
+    <style name=""""style_0x7f0f005d"""" parent=""@style/style_0x7f0f01a6"" />
+    <style name=""""style_0x7f0f005e"""" parent=""@style/style_0x7f0f01a7"" />
+    <style name=""""style_0x7f0f005f"""" parent=""@style/style_0x7f0f01a8"" />
+    <style name=""""style_0x7f0f0060"""" parent=""@style/style_0x7f0f001b"" />
+    <style name=""""style_0x7f0f0061"""" parent=""@style/style_0x7f0f001c"" />
+    <style name=""""style_0x7f0f0062"""" parent=""@style/style_0x7f0f01ab"" />
+    <style name=""""style_0x7f0f0063"""" />
+    <style name=""""style_0x7f0f0064"""" parent=""@style/style_0x7f0f0063">"
+        <item name=""""attr_0x7f0101ed""">@style/style_0x7f0f008c</item>"
+    </style>
+    <style name=""""style_0x7f0f0065"""" parent=""@style/style_0x7f0f0064">"
+        <item name=""""attr_0x7f0101ed""">@style/style_0x7f0f008d</item>"
+    </style>
+    <style name=""""style_0x7f0f0066"""" parent=""@style/style_0x7f0f0063">"
+        <item name=""""attr_0x7f0101ed""">@style/style_0x7f0f008e</item>"
+    </style>
+    <style name=""""style_0x7f0f0067"""" parent=""@style/style_0x7f0f0066">"
+        <item name=""""attr_0x7f0101ed""">@style/style_0x7f0f008f</item>"
+    </style>
+    <style name=""""style_0x7f0f0068"""" parent=""@android:style/Widget">"
+        <item name=""""android:background""">?attr_0x7f0101d6</item>"
+    </style>
+    <style name=""""style_0x7f0f0069""">"
+        <item name=""""attr_0x7f010071""">id_0x7f0b0034</item>"
+        <item name=""""attr_0x7f010072""">@dimen/dimen_0x7f0a002b</item>"
+        <item name=""""attr_0x7f010075""">true</item>"
+        <item name=""""attr_0x7f0100bf""">?attr_0x7f0101b8</item>"
+        <item name=""""attr_0x7f010167""">@dimen/dimen_0x7f0a0029</item>"
+    </style>
+    <style name=""""style_0x7f0f006a"""" parent=""@android:style/Widget">"
+        <item name=""""android:background""">?android:colorBackground</item>"
+        <item name=""""attr_0x7f010076""">id_0x7f0b0034</item>"
+        <item name=""""attr_0x7f010077""">true</item>"
+        <item name=""""attr_0x7f010078""">false</item>"
+    </style>
+    <style name=""""style_0x7f0f006b"""" parent=""@android:style/Widget">"
+        <item name=""""attr_0x7f01009a""">32.0dip</item>"
+        <item name=""""attr_0x7f0100a2""">?attr_0x7f0101d7</item>"
+    </style>
+    <style name=""""style_0x7f0f006c"""" parent=""@android:style/Widget">"
+        <item name=""""android:background""">@drawable/drawable_0x7f02006c</item>"
+        <item name=""""android:focusable""">true</item>"
+        <item name=""""android:clickable""">true</item>"
+        <item name=""""attr_0x7f01004c""">@animator/Dimensi_Maps</item>"
+        <item name=""""attr_0x7f010050""">?attr_0x7f0101db</item>"
+        <item name=""""attr_0x7f010052""">@animator/animator_0x7f070002</item>"
+        <item name=""""attr_0x7f0100ab""">id_0x7f0b0034</item>"
+        <item name=""""attr_0x7f0100ad""">@dimen/dimen_0x7f0a0038</item>"
+        <item name=""""attr_0x7f0100ae""">@dimen/dimen_0x7f0a0039</item>"
+        <item name=""""attr_0x7f0100af""">@dimen/dimen_0x7f0a0033</item>"
+        <item name=""""attr_0x7f0100b1""">@dimen/dimen_0x7f0a0035</item>"
+        <item name=""""attr_0x7f010167""">@dimen/dimen_0x7f0a0034</item>"
+        <item name=""""attr_0x7f010242""">?attr_0x7f0101d8</item>"
+    </style>
+    <style name=""""style_0x7f0f006d""">"
+        <item name=""""android:background""">?android:windowBackground</item>"
+        <item name=""""android:fitsSystemWindows""">true</item>"
+        <item name=""""android:maxWidth""">@dimen/dimen_0x7f0a001d</item>"
+        <item name=""""attr_0x7f0100c2""">@dimen/dimen_0x7f0a003d</item>"
+        <item name=""""attr_0x7f0100c3""">@dimen/dimen_0x7f0a003e</item>"
+        <item name=""""attr_0x7f010167""">@dimen/dimen_0x7f0a003a</item>"
+    </style>
+    <style name=""""style_0x7f0f006e""">"
+        <item name=""""attr_0x7f0100c4""">#44000000</item>"
+    </style>
+    <style name=""""style_0x7f0f006f"""" parent=""@android:style/Widget">"
+        <item name=""""android:background""">@drawable/drawable_0x7f020070</item>"
+        <item name=""""android:paddingLeft""">@dimen/dimen_0x7f0a0042</item>"
+        <item name=""""android:paddingRight""">@dimen/dimen_0x7f0a0042</item>"
+        <item name=""""android:maxWidth""">@dimen/dimen_0x7f0a0021</item>"
+        <item name=""""android:minWidth""">@dimen/dimen_0x7f0a0022</item>"
+        <item name=""""attr_0x7f0100c8""">@dimen/dimen_0x7f0a001e</item>"
+        <item name=""""attr_0x7f010167""">@dimen/dimen_0x7f0a0041</item>"
+    </style>
+    <style name=""""style_0x7f0f0070"""" parent=""@android:style/Widget">"
+        <item name=""""attr_0x7f0100e4""">@style/style_0x7f0f0033</item>"
+        <item name=""""attr_0x7f0100e7""">@style/style_0x7f0f0032</item>"
+        <item name=""""attr_0x7f0100e9""">@style/style_0x7f0f0031</item>"
+        <item name=""""attr_0x7f0100ec""">@style/style_0x7f0f002f</item>"
+        <item name=""""attr_0x7f0100ed""">@style/style_0x7f0f0030</item>"
+        <item name=""""attr_0x7f0100ef""">@drawable/drawable_0x7f02006f</item>"
+        <item name=""""attr_0x7f0100f0""">@string/string_0x7f0c001d</item>"
+        <item name=""""attr_0x7f0100f1""">@color/color_0x7f0e0085</item>"
+        <item name=""""attr_0x7f0100f3""">id_0x7f0b002c</item>"
+    </style>
+    <style name=""""style_0x7f0f0071"""" parent=""@style/style_0x7f0f01f2">"
+        <item name=""""attr_0x7f01006d""">@dimen/dimen_0x7f0a004a</item>"
+        <item name=""""attr_0x7f01006e""">@dimen/dimen_0x7f0a004b</item>"
+        <item name=""""attr_0x7f01006f""">@dimen/dimen_0x7f0a004c</item>"
+        <item name=""""attr_0x7f010242""">@android:color/white</item>"
+    </style>
+    <style name=""""style_0x7f0f0072"""" parent=""@style/style_0x7f0f0071">"
+        <item name=""""attr_0x7f010242""">?attr_0x7f0101d6</item>"
+    </style>
+    <style name=""""style_0x7f0f0073"""" parent=""@style/style_0x7f0f0069">"
+        <item name=""""android:background""">@android:color/white</item>"
+        <item name=""""attr_0x7f010073""">?attr_0x7f010059</item>"
+        <item name=""""attr_0x7f010074""">?attr_0x7f010059</item>"
+        <item name=""""attr_0x7f010075""">false</item>"
+        <item name=""""attr_0x7f0100bd""">@color/color_0x7f0e0087</item>"
+        <item name=""""attr_0x7f0100be""">@color/color_0x7f0e0087</item>"
+        <item name=""""attr_0x7f0100fd""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f0074"""" parent=""@style/style_0x7f0f0073">"
+        <item name=""""android:background""">?attr_0x7f0101d6</item>"
+        <item name=""""attr_0x7f010073""">?attr_0x7f010059</item>"
+        <item name=""""attr_0x7f010074""">?attr_0x7f010059</item>"
+        <item name=""""attr_0x7f0100bd""">@color/color_0x7f0e0086</item>"
+        <item name=""""attr_0x7f0100be""">@color/color_0x7f0e0086</item>"
+    </style>
+    <style name=""""style_0x7f0f0075"""" parent=""@style/style_0x7f0f006a"" />
+    <style name=""""style_0x7f0f0076"""" parent=""@style/style_0x7f0f01b7">"
+        <item name=""""android:textAppearance""">?attr_0x7f010058</item>"
+        <item name=""""android:textColor""">@color/color_0x7f0e008c</item>"
+        <item name=""""android:paddingLeft""">@dimen/dimen_0x7f0a005a</item>"
+        <item name=""""android:paddingTop""">@dimen/dimen_0x7f0a005c</item>"
+        <item name=""""android:paddingRight""">@dimen/dimen_0x7f0a005b</item>"
+        <item name=""""android:paddingBottom""">@dimen/dimen_0x7f0a0059</item>"
+        <item name=""""android:insetLeft""">0.0dip</item>"
+        <item name=""""android:insetRight""">0.0dip</item>"
+        <item name=""""android:insetTop""">@dimen/dimen_0x7f0a0057</item>"
+        <item name=""""android:insetBottom""">@dimen/dimen_0x7f0a0057</item>"
+        <item name=""""attr_0x7f010050""">@color/color_0x7f0e0089</item>"
+        <item name=""""attr_0x7f0100b8""">@dimen/dimen_0x7f0a0056</item>"
+        <item name=""""attr_0x7f0100ba""">@color/color_0x7f0e008c</item>"
+        <item name=""""attr_0x7f0100bb""">@dimen/dimen_0x7f0a004e</item>"
+        <item name=""""attr_0x7f0100fd""">true</item>"
+        <item name=""""attr_0x7f010242""">@color/color_0x7f0e0088</item>"
+    </style>
+    <style name=""""style_0x7f0f0077"""" parent=""@style/style_0x7f0f0076">"
+        <item name=""""android:paddingLeft""">@dimen/dimen_0x7f0a0055</item>"
+    </style>
+    <style name=""""style_0x7f0f0078"""" parent=""@style/style_0x7f0f007a">"
+        <item name=""""android:paddingLeft""">@dimen/dimen_0x7f0a005a</item>"
+        <item name=""""android:paddingRight""">@dimen/dimen_0x7f0a005b</item>"
+        <item name=""""attr_0x7f010053""">@color/color_0x7f0e008a</item>"
+        <item name=""""attr_0x7f010054""">@dimen/dimen_0x7f0a005e</item>"
+    </style>
+    <style name=""""style_0x7f0f0079"""" parent=""@style/style_0x7f0f0078">"
+        <item name=""""android:paddingLeft""">@dimen/dimen_0x7f0a0055</item>"
+    </style>
+    <style name=""""style_0x7f0f007a"""" parent=""@style/style_0x7f0f007e">"
+        <item name=""""android:textColor""">@color/color_0x7f0e0097</item>"
+        <item name=""""android:paddingLeft""">@dimen/dimen_0x7f0a0060</item>"
+        <item name=""""android:paddingRight""">@dimen/dimen_0x7f0a0061</item>"
+        <item name=""""attr_0x7f010050""">@color/color_0x7f0e008b</item>"
+        <item name=""""attr_0x7f0100b8""">@dimen/dimen_0x7f0a005f</item>"
+        <item name=""""attr_0x7f0100ba""">@color/color_0x7f0e0097</item>"
+        <item name=""""attr_0x7f010242""">@color/color_0x7f0e001f</item>"
+    </style>
+    <style name=""""style_0x7f0f007b"""" parent=""@style/style_0x7f0f007a">"
+        <item name=""""android:minWidth""">@dimen/dimen_0x7f0a004f</item>"
+    </style>
+    <style name=""""style_0x7f0f007c"""" parent=""@style/style_0x7f0f007b"" />
+    <style name=""""style_0x7f0f007d"""" parent=""@style/style_0x7f0f007a"" />
+    <style name=""""style_0x7f0f007e"""" parent=""@style/style_0x7f0f0076"" />
+    <style name=""""style_0x7f0f007f"""" parent=""@style/style_0x7f0f007e">"
+        <item name=""""android:paddingLeft""">@dimen/dimen_0x7f0a0055</item>"
+    </style>
+    <style name=""""style_0x7f0f0080"""" parent=""@style/Dimensi_Maps">"
+        <item name=""""attr_0x7f010038""">?attr_0x7f0101df</item>"
+        <item name=""""attr_0x7f01003a""">@dimen/dimen_0x7f0a0064</item>"
+    </style>
+    <style name=""""style_0x7f0f0081"""" parent=""@style/style_0x7f0f0027">"
+        <item name=""""attr_0x7f010084""">false</item>"
+    </style>
+    <style name=""""style_0x7f0f0082"""" parent=""@style/style_0x7f0f0027">"
+        <item name=""""android:checkable""">true</item>"
+        <item name=""""attr_0x7f01007f""">false</item>"
+        <item name=""""attr_0x7f010084""">false</item>"
+        <item name=""""attr_0x7f010089""">false</item>"
+        <item name=""""attr_0x7f01008b""">@drawable/drawable_0x7f02007c</item>"
+    </style>
+    <style name=""""style_0x7f0f0083"""" parent=""@style/style_0x7f0f0027">"
+        <item name=""""android:checkable""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f0084"""" parent=""@style/style_0x7f0f0027">"
+        <item name=""""android:checkable""">true</item>"
+        <item name=""""attr_0x7f01007f""">false</item>"
+        <item name=""""attr_0x7f010084""">false</item>"
+        <item name=""""attr_0x7f01008b""">@drawable/drawable_0x7f02007c</item>"
+    </style>
+    <style name=""""style_0x7f0f0085"""" parent=""@android:style/Widget">"
+        <item name=""""attr_0x7f010094""">4.0dip</item>"
+        <item name=""""attr_0x7f010097""">false</item>"
+        <item name=""""attr_0x7f010098""">false</item>"
+    </style>
+    <style name=""""style_0x7f0f0086"""" parent=""@style/style_0x7f0f006c">"
+        <item name=""""attr_0x7f01004c""">@animator/animator_0x7f070006</item>"
+        <item name=""""attr_0x7f010050""">@color/color_0x7f0e0091</item>"
+        <item name=""""attr_0x7f010052""">@animator/animator_0x7f070007</item>"
+        <item name=""""attr_0x7f0100ad""">@dimen/dimen_0x7f0a0069</item>"
+        <item name=""""attr_0x7f0100ae""">@dimen/dimen_0x7f0a006a</item>"
+        <item name=""""attr_0x7f010167""">@dimen/dimen_0x7f0a0068</item>"
+    </style>
+    <style name=""""style_0x7f0f0087"""" parent=""@style/style_0x7f0f006d">"
+        <item name=""""attr_0x7f0100c2""">@dimen/dimen_0x7f0a006c</item>"
+        <item name=""""attr_0x7f0100c3""">@dimen/dimen_0x7f0a006d</item>"
+        <item name=""""attr_0x7f010167""">@dimen/dimen_0x7f0a006b</item>"
+    </style>
+    <style name=""""style_0x7f0f0088"""" parent=""@style/style_0x7f0f006f">"
+        <item name=""""android:background""">@drawable/drawable_0x7f020084</item>"
+        <item name=""""android:layout_margin""">@dimen/dimen_0x7f0a006f</item>"
+    </style>
+    <style name=""""style_0x7f0f0089"""" parent=""@style/style_0x7f0f006f"" />
+    <style name=""""style_0x7f0f008a"""" parent=""@style/style_0x7f0f0004">"
+        <item name=""""android:background""">@android:color/white</item>"
+        <item name=""""attr_0x7f0100c9""">?attr_0x7f0101d8</item>"
+        <item name=""""attr_0x7f0100cf""">@integer/integer_0x7f0d0009</item>"
+        <item name=""""attr_0x7f0100d6""">?attr_0x7f010058</item>"
+        <item name=""""attr_0x7f0100d7""">@color/color_0x7f0e0093</item>"
+        <item name=""""attr_0x7f0100de""">@color/color_0x7f0e0093</item>"
+        <item name=""""attr_0x7f0100e0""">@color/color_0x7f0e0096</item>"
+        <item name=""""attr_0x7f0100e1""">true</item>"
+        <item name=""""attr_0x7f0100fd""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f008b"""" parent=""@style/style_0x7f0f008a">"
+        <item name=""""android:background""">?attr_0x7f0101d8</item>"
+        <item name=""""attr_0x7f0100c9""">@android:color/white</item>"
+        <item name=""""attr_0x7f0100d7""">@color/color_0x7f0e0094</item>"
+        <item name=""""attr_0x7f0100de""">@color/color_0x7f0e0094</item>"
+        <item name=""""attr_0x7f0100e0""">@color/color_0x7f0e0092</item>"
+    </style>
+    <style name=""""style_0x7f0f008c"""" parent=""@style/style_0x7f0f0028">"
+        <item name=""""android:paddingTop""">20.0dip</item>"
+        <item name=""""android:paddingBottom""">16.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f008d"""" parent=""@style/style_0x7f0f008c">"
+        <item name=""""android:paddingTop""">16.0dip</item>"
+        <item name=""""android:paddingBottom""">16.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f008e"""" parent=""@style/style_0x7f0f0028"" />
+    <style name=""""style_0x7f0f008f"""" parent=""@style/style_0x7f0f008e">"
+        <item name=""""android:paddingTop""">12.0dip</item>"
+        <item name=""""android:paddingBottom""">12.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f0090"""" parent=""@style/style_0x7f0f0029">"
+        <item name=""""android:theme""">@style/style_0x7f0f0064</item>"
+        <item name=""""attr_0x7f0100f3""">id_0x7f0b0055</item>"
+        <item name=""""attr_0x7f0100f4""">12.0dip</item>"
+        <item name=""""attr_0x7f0100f7""">@dimen/dimen_0x7f0a0072</item>"
+        <item name=""""attr_0x7f0100f8""">@dimen/dimen_0x7f0a0072</item>"
+        <item name=""""attr_0x7f0100fa""">@color/color_0x7f0e0023</item>"
+    </style>
+    <style name=""""style_0x7f0f0091"""" parent=""@style/style_0x7f0f0090">"
+        <item name=""""android:theme""">@style/style_0x7f0f0065</item>"
+        <item name=""""attr_0x7f0100f4""">8.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f0092"""" parent=""@style/style_0x7f0f0029">"
+        <item name=""""android:theme""">@style/style_0x7f0f0066</item>"
+        <item name=""""attr_0x7f0100f4""">0.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f0093"""" parent=""@style/style_0x7f0f0092">"
+        <item name=""""android:theme""">@style/style_0x7f0f0067</item>"
+    </style>
+    <style name=""""style_0x7f0f0094"""" parent=""@style/style_0x7f0f01f2">"
+        <item name=""""android:minHeight""">@dimen/dimen_0x7f0a0078</item>"
+        <item name=""""attr_0x7f01022e""">?attr_0x7f01005f</item>"
+        <item name=""""attr_0x7f01022f""">?attr_0x7f010061</item>"
+        <item name=""""attr_0x7f01023d""">?android:textColorPrimary</item>"
+        <item name=""""attr_0x7f01023e""">?android:textColorSecondary</item>"
+    </style>
+    <style name=""""style_0x7f0f0095"""" parent=""@style/style_0x7f0f009c"" />
+    <style name=""""style_0x7f0f0096"""" parent=""@style/style_0x7f0f009b"" />
+    <style name=""""style_0x7f0f0097"""" parent=""@style/style_0x7f0f009d"" />
+    <style name=""""style_0x7f0f0098"""" parent=""@style/style_0x7f0f009e"" />
+    <style name=""""style_0x7f0f0099"""" parent=""@style/style_0x7f0f0095"" />
+    <style name=""""style_0x7f0f009a"""" parent=""@android:style/Widget">"
+        <item name=""""attr_0x7f010139""">#ff000000</item>"
+    </style>
+    <style name=""""style_0x7f0f009b"""" parent=""@android:style/TextAppearance.StatusBar.EventContent"" />
+    <style name=""""style_0x7f0f009c"""" parent=""@style/style_0x7f0f009b">"
+        <item name=""""android:textSize""">12.0sp</item>"
+        <item name=""""android:textColor""">?android:textColorSecondary</item>"
+    </style>
+    <style name=""""style_0x7f0f009d"""" parent=""@style/style_0x7f0f009b">"
+        <item name=""""android:textSize""">12.0sp</item>"
+        <item name=""""android:textColor""">?android:textColorSecondary</item>"
+    </style>
+    <style name=""""style_0x7f0f009e"""" parent=""@android:style/TextAppearance.StatusBar.EventContent.Title"" />
+    <style name=""""style_0x7f0f009f"""" />
+    <style name=""""style_0x7f0f00a0"""" />
+    <style name=""""style_0x7f0f00a1"""" parent=""@style/style_0x7f0f009c"" />
+    <style name=""""style_0x7f0f00a2"""" parent=""@style/style_0x7f0f015b">"
+        <item name=""""attr_0x7f0101ff""">24.0dip</item>"
+        <item name=""""attr_0x7f010200""">3.0dip</item>"
+        <item name=""""attr_0x7f010203""">18.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f00a3"""" parent=""@style/style_0x7f0f0197"" />
+    <style name=""""style_0x7f0f00a4"""" parent=""@style/style_0x7f0f019d"" />
+    <style name=""""style_0x7f0f00a5"""" parent=""@style/style_0x7f0f010e">"
+        <item name=""""android:background""">@drawable/drawable_0x7f020042</item>"
+    </style>
+    <style name=""""style_0x7f0f00a6"""" parent=""@style/style_0x7f0f019d"" />
+    <style name=""""style_0x7f0f00a7"""" parent=""@style/style_0x7f0f019e"" />
+    <style name=""""style_0x7f0f00a8"""" parent=""@style/style_0x7f0f019f"" />
+    <style name=""""style_0x7f0f00a9"""" parent=""@style/style_0x7f0f01a0"" />
+    <style name=""""style_0x7f0f00aa"""" parent=""@style/style_0x7f0f01a1"" />
+    <style name=""""style_0x7f0f00ab"""" parent=""@style/style_0x7f0f01a2"" />
+    <style name=""""style_0x7f0f00ac"""" parent=""@style/style_0x7f0f01a3"" />
+    <style name=""""style_0x7f0f00ad"""" parent=""@style/style_0x7f0f013a"" />
+    <style name=""""style_0x7f0f00ae"""" parent=""@style/style_0x7f0f0135"" />
+    <style name=""""style_0x7f0f00af"""" parent=""@android:style/Widget">"
+        <item name=""""android:layout_gravity""">center|left</item>"
+        <item name=""""android:paddingRight""">8.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f00b0"""" parent=""@android:style/Widget">"
+        <item name=""""android:layout_marginRight""">8.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f00b1"""" parent=""@android:style/Widget">"
+        <item name=""""android:paddingRight""">16.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f00b2"""" parent=""@android:style/Widget">"
+        <item name=""""android:layout_marginLeft""">16.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f00b3"""" parent=""@android:style/Widget">"
+        <item name=""""android:layout_marginLeft""">16.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f00b4"""" parent=""@android:style/Widget">"
+        <item name=""""android:layout_marginLeft""">8.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f00b5"""" parent=""@android:style/Widget">"
+        <item name=""""android:layout_alignParentLeft""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f00b6"""" parent=""@android:style/Widget">"
+        <item name=""""android:layout_marginLeft""">16.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f00b7"""" parent=""@android:style/Widget">"
+        <item name=""""android:paddingLeft""">@dimen/dimen_0x7f0a00c0</item>"
+        <item name=""""android:paddingRight""">4.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f00b8"""" parent=""@android:style/Widget">"
+        <item name=""""android:layout_alignParentLeft""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f00b9"""" parent=""@android:style/Widget">"
+        <item name=""""android:layout_toLeftOf""">@id/id_0x7f0b00a9</item>"
+    </style>
+    <style name=""""style_0x7f0f00ba"""" parent=""@android:style/Widget">"
+        <item name=""""android:layout_alignParentRight""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f00bb"""" parent=""@style/style_0x7f0f00fc">"
+        <item name=""""android:layout_toLeftOf""">@android:id/icon2</item>"
+        <item name=""""android:layout_toRightOf""">@android:id/icon1</item>"
+    </style>
+    <style name=""""style_0x7f0f00bc"""" parent=""@android:style/Widget">"
+        <item name=""""android:layout_marginLeft""">@dimen/dimen_0x7f0a00c0</item>"
+    </style>
+    <style name=""""style_0x7f0f00bd"""" parent=""@android:style/Widget">"
+        <item name=""""android:paddingLeft""">12.0dip</item>"
+        <item name=""""android:paddingRight""">12.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f00be"""" parent=""@style/style_0x7f0f00f1">"
+        <item name=""""android:paddingLeft""">@dimen/dimen_0x7f0a00a6</item>"
+        <item name=""""android:paddingRight""">@dimen/dimen_0x7f0a00a5</item>"
+    </style>
+    <style name=""""style_0x7f0f00bf"""" parent=""@android:style/TextAppearance">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a00ce</item>"
+        <item name=""""android:textColor""">?android:textColorPrimary</item>"
+        <item name=""""android:textColorHighlight""">?android:textColorHighlight</item>"
+        <item name=""""android:textColorHint""">?android:textColorHint</item>"
+        <item name=""""android:textColorLink""">?android:textColorLink</item>"
+    </style>
+    <style name=""""style_0x7f0f00c0"""" parent=""@style/style_0x7f0f00bf">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a00ce</item>"
+        <item name=""""android:textColor""">?android:textColorPrimary</item>"
+    </style>
+    <style name=""""style_0x7f0f00c1"""" parent=""@style/style_0x7f0f00bf">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a00cf</item>"
+        <item name=""""android:textColor""">?android:textColorPrimary</item>"
+    </style>
+    <style name=""""style_0x7f0f00c2"""" parent=""@style/style_0x7f0f00bf">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a00d0</item>"
+        <item name=""""android:textColor""">?android:textColorPrimary</item>"
+        <item name=""""android:textAllCaps""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f00c3"""" parent=""@style/style_0x7f0f00bf">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a00d1</item>"
+        <item name=""""android:textColor""">?android:textColorSecondary</item>"
+    </style>
+    <style name=""""style_0x7f0f00c4"""" parent=""@style/style_0x7f0f00bf">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a00d2</item>"
+        <item name=""""android:textColor""">?android:textColorSecondary</item>"
+    </style>
+    <style name=""""style_0x7f0f00c5"""" parent=""@style/style_0x7f0f00bf">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a00d3</item>"
+        <item name=""""android:textColor""">?android:textColorSecondary</item>"
+    </style>
+    <style name=""""style_0x7f0f00c6"""" parent=""@style/style_0x7f0f00bf">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a00d4</item>"
+        <item name=""""android:textColor""">?android:textColorSecondary</item>"
+    </style>
+    <style name=""""style_0x7f0f00c7"""" parent=""@style/style_0x7f0f00bf">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a00d5</item>"
+        <item name=""""android:textColor""">?android:textColorSecondary</item>"
+    </style>
+    <style name=""""style_0x7f0f00c8"""" parent=""@style/style_0x7f0f00bf">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a00d6</item>"
+        <item name=""""android:textColor""">?android:textColorPrimary</item>"
+    </style>
+    <style name=""""style_0x7f0f00c9"""" parent=""@style/style_0x7f0f00bf">"
+        <item name=""""android:textColor""">?android:textColorPrimaryInverse</item>"
+        <item name=""""android:textColorHighlight""">?android:textColorHighlightInverse</item>"
+        <item name=""""android:textColorHint""">?android:textColorHintInverse</item>"
+        <item name=""""android:textColorLink""">?android:textColorLinkInverse</item>"
+    </style>
+    <style name=""""style_0x7f0f00ca"""" parent=""@style/style_0x7f0f00bf">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a00d7</item>"
+        <item name=""""android:textColor""">?android:textColorPrimary</item>"
+    </style>
+    <style name=""""style_0x7f0f00cb"""" parent=""@style/style_0x7f0f00ca">"
+        <item name=""""android:textColor""">?android:textColorPrimaryInverse</item>"
+        <item name=""""android:textColorHighlight""">?android:textColorHighlightInverse</item>"
+        <item name=""""android:textColorHint""">?android:textColorHintInverse</item>"
+        <item name=""""android:textColorLink""">?android:textColorLinkInverse</item>"
+    </style>
+    <style name=""""style_0x7f0f00ce"""" parent=""@style/style_0x7f0f00bf">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a00d8</item>"
+        <item name=""""android:textColor""">?android:textColorSecondary</item>"
+    </style>
+    <style name=""""style_0x7f0f00cf"""" parent=""@style/style_0x7f0f00ce">"
+        <item name=""""android:textColor""">?android:textColorSecondaryInverse</item>"
+        <item name=""""android:textColorHighlight""">?android:textColorHighlightInverse</item>"
+        <item name=""""android:textColorHint""">?android:textColorHintInverse</item>"
+        <item name=""""android:textColorLink""">?android:textColorLinkInverse</item>"
+    </style>
+    <style name=""""style_0x7f0f00d0"""" parent=""@style/style_0x7f0f00bf">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a00da</item>"
+        <item name=""""android:textColor""">?android:textColorPrimary</item>"
+    </style>
+    <style name=""""style_0x7f0f00d1"""" parent=""@style/style_0x7f0f0137">"
+        <item name=""""android:textSize""">14.0sp</item>"
+        <item name=""""android:textColor""">?android:textColorSecondary</item>"
+    </style>
+    <style name=""""style_0x7f0f00d2"""" parent=""@style/style_0x7f0f0137">"
+        <item name=""""android:textSize""">18.0sp</item>"
+    </style>
+    <style name=""""style_0x7f0f00d3"""" parent=""@style/style_0x7f0f00bf">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a00db</item>"
+        <item name=""""android:textColor""">?android:textColorTertiary</item>"
+    </style>
+    <style name=""""style_0x7f0f00d4"""" parent=""@style/style_0x7f0f00d3">"
+        <item name=""""android:textColor""">?android:textColorTertiaryInverse</item>"
+        <item name=""""android:textColorHighlight""">?android:textColorHighlightInverse</item>"
+        <item name=""""android:textColorHint""">?android:textColorHintInverse</item>"
+        <item name=""""android:textColorLink""">?android:textColorLinkInverse</item>"
+    </style>
+    <style name=""""style_0x7f0f00d5"""" parent=""@style/style_0x7f0f00bf">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a00dc</item>"
+        <item name=""""android:textColor""">?android:textColorPrimary</item>"
+    </style>
+    <style name=""""style_0x7f0f00d6"""" parent=""@style/style_0x7f0f00bf">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a00dd</item>"
+        <item name=""""android:textColor""">?android:textColorPrimary</item>"
+    </style>
+    <style name=""""style_0x7f0f00d7"""" parent=""@style/style_0x7f0f017d">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a0095</item>"
+        <item name=""""android:textColor""">?android:textColorSecondary</item>"
+    </style>
+    <style name=""""style_0x7f0f00d8"""" parent=""@style/style_0x7f0f017e">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a0095</item>"
+        <item name=""""android:textColor""">?android:textColorSecondaryInverse</item>"
+    </style>
+    <style name=""""style_0x7f0f00d9"""" parent=""@style/style_0x7f0f017f">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a0096</item>"
+        <item name=""""android:textColor""">?android:textColorPrimary</item>"
+    </style>
+    <style name=""""style_0x7f0f00da"""" parent=""@style/style_0x7f0f0180">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a0096</item>"
+        <item name=""""android:textColor""">?android:textColorPrimaryInverse</item>"
+    </style>
+    <style name=""""style_0x7f0f00db"""" parent=""@style/style_0x7f0f0182"" />
+    <style name=""""style_0x7f0f00dc"""" parent=""@style/style_0x7f0f0184"" />
+    <style name=""""style_0x7f0f00dd"""" parent=""@style/style_0x7f0f0168"" />
+    <style name=""""style_0x7f0f00de"""" parent=""@style/style_0x7f0f0165">"
+        <item name=""""android:textSize""">@dimen/dimen_0x7f0a00d9</item>"
+        <item name=""""android:textColor""">?attr_0x7f0101d8</item>"
+    </style>
+    <style name=""""style_0x7f0f00df"""" parent=""@style/style_0x7f0f0178"" />
+    <style name=""""style_0x7f0f00e0"""" parent=""@style/style_0x7f0f0178"" />
+    <style name=""""style_0x7f0f00e1"""" parent=""@style/style_0x7f0f0168"" />
+    <style name=""""style_0x7f0f00e2"""" parent=""@style/style_0x7f0f0178"" />
+    <style name=""""style_0x7f0f00e3"""" parent=""@style/style_0x7f0f0182"" />
+    <style name=""""style_0x7f0f00e4"""" parent=""@style/style_0x7f0f0184"" />
+    <style name=""""style_0x7f0f00e5"""" parent=""@style/style_0x7f0f014b"" />
+    <style name=""""style_0x7f0f00e6"""" parent=""@style/style_0x7f0f014c"" />
+    <style name=""""style_0x7f0f00e7"""" parent=""@style/style_0x7f0f014d"" />
+    <style name=""""style_0x7f0f00e8"""" parent=""@style/style_0x7f0f014e"" />
+    <style name=""""style_0x7f0f00e9"""" parent=""@style/style_0x7f0f014f"" />
+    <style name=""""style_0x7f0f00ef""">"
+        <item name=""""android:textAppearance""">@style/style_0x7f0f0176</item>"
+        <item name=""""android:textSize""">12.0sp</item>"
+        <item name=""""android:textStyle""">bold</item>"
+        <item name=""""android:textColor""">?android:textColorPrimary</item>"
+        <item name=""""android:ellipsize""">marquee</item>"
+        <item name=""""android:maxWidth""">180.0dip</item>"
+        <item name=""""android:maxLines""">2</item>"
+        <item name=""""attr_0x7f010179""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f00f0""">"
+        <item name=""""android:gravity""">center_horizontal</item>"
+        <item name=""""android:background""">@drawable/drawable_0x7f020045</item>"
+        <item name=""""android:paddingLeft""">16.0dip</item>"
+        <item name=""""android:paddingRight""">16.0dip</item>"
+        <item name=""""android:layout_width""">0.0dip</item>"
+        <item name=""""android:minWidth""">80.0dip</item>"
+        <item name=""""android:layout_weight""">1.0</item>"
+    </style>
+    <style name=""""style_0x7f0f00f1"""" parent=""@style/style_0x7f0f00bd">"
+        <item name=""""android:gravity""">center</item>"
+        <item name=""""android:background""">?attr_0x7f010199</item>"
+        <item name=""""android:scaleType""">center</item>"
+        <item name=""""android:minWidth""">@dimen/dimen_0x7f0a00ac</item>"
+        <item name=""""android:minHeight""">@dimen/dimen_0x7f0a00ab</item>"
+        <item name=""""android:maxLines""">2</item>"
+        <item name=""""attr_0x7f010179""">@bool/bool_0x7f100003</item>"
+    </style>
+    <style name=""""style_0x7f0f00f2"""" parent=""@style/style_0x7f0f00f1">"
+        <item name=""""android:background""">?attr_0x7f0101de</item>"
+        <item name=""""android:minWidth""">56.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f00f3"""" parent=""@style/style_0x7f0f00be">"
+        <item name=""""android:background""">?attr_0x7f010199</item>"
+        <item name=""""android:minWidth""">@dimen/dimen_0x7f0a00ad</item>"
+        <item name=""""android:minHeight""">@dimen/dimen_0x7f0a00ab</item>"
+        <item name=""""android:contentDescription""">@string/string_0x7f0c0025</item>"
+        <item name=""""attr_0x7f010173""">@drawable/drawable_0x7f02001a</item>"
+    </style>
+    <style name=""""style_0x7f0f00f4"""" parent=""@style/style_0x7f0f0150"" />
+    <style name=""""style_0x7f0f00f5"""" parent=""@android:style/Widget">"
+        <item name=""""android:textAppearance""">?android:textAppearanceButton</item>"
+        <item name=""""android:gravity""">center</item>"
+        <item name=""""android:background""">@drawable/drawable_0x7f020007</item>"
+        <item name=""""android:focusable""">true</item>"
+        <item name=""""android:clickable""">true</item>"
+        <item name=""""android:minWidth""">88.0dip</item>"
+        <item name=""""android:minHeight""">48.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f00f6"""" parent=""@style/style_0x7f0f00f5">"
+        <item name=""""android:background""">@drawable/Dimensi_Maps</item>"
+    </style>
+    <style name=""""style_0x7f0f00f7"""" parent=""@style/style_0x7f0f00f6">"
+        <item name=""""android:textAppearance""">@style/style_0x7f0f018b</item>"
+    </style>
+    <style name=""""style_0x7f0f00f8"""" parent=""@style/style_0x7f0f00f5">"
+        <item name=""""android:minWidth""">48.0dip</item>"
+        <item name=""""android:minHeight""">48.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f00f9"""" parent=""@android:style/Widget">"
+        <item name=""""android:background""">@null</item>"
+    </style>
+    <style name=""""style_0x7f0f00fa"""" parent=""@android:style/Widget.CompoundButton.CheckBox">"
+        <item name=""""android:background""">?attr_0x7f0101de</item>"
+        <item name=""""android:button""">?android:listChoiceIndicatorMultiple</item>"
+    </style>
+    <style name=""""style_0x7f0f00fb"""" parent=""@android:style/Widget.CompoundButton.RadioButton">"
+        <item name=""""android:background""">?attr_0x7f0101de</item>"
+        <item name=""""android:button""">?android:listChoiceIndicatorSingle</item>"
+    </style>
+    <style name=""""style_0x7f0f00fc""">"
+        <item name=""""android:textAppearance""">@style/style_0x7f0f018e</item>"
+        <item name=""""android:gravity""">center_vertical</item>"
+        <item name=""""android:paddingLeft""">8.0dip</item>"
+        <item name=""""android:paddingRight""">8.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f00fd"""" parent=""@style/style_0x7f0f0151"" />
+    <style name=""""style_0x7f0f00fe"""" parent=""@android:style/Widget.ImageButton">"
+        <item name=""""android:background""">@drawable/drawable_0x7f020007</item>"
+    </style>
+    <style name=""""style_0x7f0f00ff"""" parent=""@style/style_0x7f0f00ef"" />
+    <style name=""""style_0x7f0f0100"""" parent=""@style/style_0x7f0f00ff">"
+        <item name=""""android:textAppearance""">@style/style_0x7f0f0177</item>"
+    </style>
+    <style name=""""style_0x7f0f0101"""" parent=""@style/style_0x7f0f00f0">"
+        <item name=""""android:background""">@drawable/drawable_0x7f020045</item>"
+    </style>
+    <style name=""""style_0x7f0f0102"""" parent=""@style/style_0x7f0f01dd"" />
+    <style name=""""style_0x7f0f0103"""" parent=""@style/style_0x7f0f0102">"
+        <item name=""""android:dropDownHorizontalOffset""">-4.0dip</item>"
+        <item name=""""attr_0x7f010213""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f0104""">"
+        <item name=""""android:dropDownSelector""">?attr_0x7f0101d5</item>"
+        <item name=""""android:popupBackground""">@drawable/drawable_0x7f020035</item>"
+        <item name=""""android:dropDownWidth""">wrap_content</item>"
+        <item name=""""android:dropDownHorizontalOffset""">0.0dip</item>"
+        <item name=""""android:dropDownVerticalOffset""">0.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f0105"""" parent=""@android:style/Widget.ListView">"
+        <item name=""""android:listSelector""">?attr_0x7f0101d5</item>"
+    </style>
+    <style name=""""style_0x7f0f0106"""" parent=""@style/style_0x7f0f0105">"
+        <item name=""""android:divider""">@null</item>"
+    </style>
+    <style name=""""style_0x7f0f0107"""" parent=""@android:style/Widget.ListView.Menu">"
+        <item name=""""android:listSelector""">?attr_0x7f0101d5</item>"
+        <item name=""""android:divider""">?attr_0x7f0101bb</item>"
+    </style>
+    <style name=""""style_0x7f0f0108"""" parent=""@style/style_0x7f0f01dd"" />
+    <style name=""""style_0x7f0f0109"""" parent=""@style/style_0x7f0f0108">"
+        <item name=""""android:dropDownHorizontalOffset""">-4.0dip</item>"
+        <item name=""""attr_0x7f010213""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f010a"""" parent=""@android:style/Widget.Holo.ProgressBar"" />
+    <style name=""""style_0x7f0f010b"""" parent=""@android:style/Widget.Holo.ProgressBar.Horizontal"" />
+    <style name=""""style_0x7f0f010c"""" parent=""@android:style/Widget.RatingBar">"
+        <item name=""""android:indeterminateDrawable""">@drawable/drawable_0x7f020037</item>"
+        <item name=""""android:progressDrawable""">@drawable/drawable_0x7f020037</item>"
+    </style>
+    <style name=""""style_0x7f0f010d"""" parent=""@android:style/Widget">"
+        <item name=""""android:paddingLeft""">16.0dip</item>"
+        <item name=""""android:paddingRight""">16.0dip</item>"
+        <item name=""""android:focusable""">true</item>"
+        <item name=""""android:indeterminateOnly""">false</item>"
+        <item name=""""android:indeterminateDrawable""">@drawable/drawable_0x7f020040</item>"
+        <item name=""""android:progressDrawable""">@drawable/drawable_0x7f020040</item>"
+        <item name=""""android:thumb""">@drawable/drawable_0x7f02003e</item>"
+    </style>
+    <style name=""""style_0x7f0f010e"""" parent=""@style/style_0x7f0f0164">"
+        <item name=""""android:gravity""">start|center</item>"
+        <item name=""""android:background""">@drawable/drawable_0x7f020041</item>"
+        <item name=""""android:clickable""">true</item>"
+        <item name=""""android:dropDownSelector""">?attr_0x7f0101d5</item>"
+        <item name=""""android:popupBackground""">@drawable/drawable_0x7f020035</item>"
+        <item name=""""android:dropDownWidth""">wrap_content</item>"
+        <item name=""""android:dropDownHorizontalOffset""">0.0dip</item>"
+        <item name=""""android:dropDownVerticalOffset""">0.0dip</item>"
+        <item name=""""attr_0x7f010213""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f010f"""" parent=""@android:style/Widget.TextView.SpinnerItem">"
+        <item name=""""android:textAppearance""">@style/style_0x7f0f0193</item>"
+        <item name=""""android:paddingLeft""">8.0dip</item>"
+        <item name=""""android:paddingRight""">8.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f0110"""" parent=""@android:style/Widget">"
+        <item name=""""android:background""">?attr_0x7f0101de</item>"
+        <item name=""""android:scaleType""">center</item>"
+        <item name=""""android:minWidth""">56.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f0111"""" parent=""@android:style/Theme.Holo">"
+        <item name=""""android:colorForeground""">@color/color_0x7f0e0044</item>"
+        <item name=""""android:colorBackground""">@color/color_0x7f0e0034</item>"
+        <item name=""""android:backgroundDimAmount""">0.6</item>"
+        <item name=""""android:disabledAlpha""">@dimen/dimen_0x7f0a00bd</item>"
+        <item name=""""android:textAppearance""">@style/style_0x7f0f0165</item>"
+        <item name=""""android:textAppearanceInverse""">@style/style_0x7f0f016f</item>"
+        <item name=""""android:textColorPrimary""">@color/color_0x7f0e0076</item>"
+        <item name=""""android:textColorPrimaryDisableOnly""">@color/color_0x7f0e0074</item>"
+        <item name=""""android:textColorSecondary""">@color/color_0x7f0e0079</item>"
+        <item name=""""android:textColorPrimaryInverse""">@color/color_0x7f0e0077</item>"
+        <item name=""""android:textColorSecondaryInverse""">@color/color_0x7f0e007a</item>"
+        <item name=""""android:textColorHintInverse""">@color/color_0x7f0e0073</item>"
+        <item name=""""android:textAppearanceLarge""">@style/style_0x7f0f0170</item>"
+        <item name=""""android:textAppearanceMedium""">@style/style_0x7f0f0176</item>"
+        <item name=""""android:textAppearanceSmall""">@style/style_0x7f0f017b</item>"
+        <item name=""""android:textAppearanceLargeInverse""">@style/style_0x7f0f0171</item>"
+        <item name=""""android:textAppearanceMediumInverse""">@style/style_0x7f0f0177</item>"
+        <item name=""""android:textAppearanceSmallInverse""">@style/style_0x7f0f017c</item>"
+        <item name=""""android:windowBackground""">@color/color_0x7f0e0034</item>"
+        <item name=""""android:windowNoTitle""">true</item>"
+        <item name=""""android:textColorHighlight""">@color/color_0x7f0e0046</item>"
+        <item name=""""android:textColorHint""">@color/color_0x7f0e0072</item>"
+        <item name=""""android:textColorLink""">?attr_0x7f0101d8</item>"
+        <item name=""""android:colorForegroundInverse""">@color/color_0x7f0e0045</item>"
+        <item name=""""android:textColorTertiary""">@color/color_0x7f0e0079</item>"
+        <item name=""""android:textColorTertiaryInverse""">@color/color_0x7f0e007a</item>"
+        <item name=""""android:listChoiceIndicatorSingle""">@drawable/drawable_0x7f020008</item>"
+        <item name=""""android:listChoiceIndicatorMultiple""">@drawable/drawable_0x7f020003</item>"
+        <item name=""""android:colorBackgroundCacheHint""">@color/color_0x7f0e006d</item>"
+        <item name=""""android:textSelectHandleLeft""">@drawable/drawable_0x7f020048</item>"
+        <item name=""""android:textSelectHandleRight""">@drawable/drawable_0x7f02004c</item>"
+        <item name=""""android:textSelectHandle""">@drawable/drawable_0x7f02004a</item>"
+        <item name=""""android:windowActionBar""">false</item>"
+        <item name=""""android:textColorAlertDialogListItem""">@color/color_0x7f0e0076</item>"
+        <item name=""""android:actionModeCutDrawable""">?attr_0x7f0101a1</item>"
+        <item name=""""android:actionModeCopyDrawable""">?attr_0x7f0101a2</item>"
+        <item name=""""android:actionModePasteDrawable""">?attr_0x7f0101a3</item>"
+        <item name=""""android:borderlessButtonStyle""">?attr_0x7f0101b9</item>"
+        <item name=""""android:buttonBarStyle""">?attr_0x7f0101b5</item>"
+        <item name=""""android:buttonBarButtonStyle""">?attr_0x7f0101b6</item>"
+        <item name=""""android:textColorHighlightInverse""">@color/color_0x7f0e0047</item>"
+        <item name=""""android:textColorLinkInverse""">?attr_0x7f0101d8</item>"
+        <item name=""""android:actionModeSelectAllDrawable""">?attr_0x7f0101a4</item>"
+        <item name=""""android:listPreferredItemPaddingLeft""">@dimen/dimen_0x7f0a00c6</item>"
+        <item name=""""android:listPreferredItemPaddingRight""">@dimen/dimen_0x7f0a00c6</item>"
+    </style>
+    <style name=""""style_0x7f0f0112"""" parent=""@android:style/Theme.Holo.Light">"
+        <item name=""""android:colorForeground""">@color/color_0x7f0e0045</item>"
+        <item name=""""android:colorBackground""">@color/color_0x7f0e0035</item>"
+        <item name=""""android:backgroundDimAmount""">0.6</item>"
+        <item name=""""android:disabledAlpha""">@dimen/dimen_0x7f0a00be</item>"
+        <item name=""""android:textAppearance""">@style/style_0x7f0f0165</item>"
+        <item name=""""android:textAppearanceInverse""">@style/style_0x7f0f016f</item>"
+        <item name=""""android:textColorPrimary""">@color/color_0x7f0e0077</item>"
+        <item name=""""android:textColorPrimaryDisableOnly""">@color/color_0x7f0e0075</item>"
+        <item name=""""android:textColorSecondary""">@color/color_0x7f0e007a</item>"
+        <item name=""""android:textColorPrimaryInverse""">@color/color_0x7f0e0076</item>"
+        <item name=""""android:textColorSecondaryInverse""">@color/color_0x7f0e0079</item>"
+        <item name=""""android:textColorHintInverse""">@color/color_0x7f0e0072</item>"
+        <item name=""""android:textAppearanceLarge""">@style/style_0x7f0f0170</item>"
+        <item name=""""android:textAppearanceMedium""">@style/style_0x7f0f0176</item>"
+        <item name=""""android:textAppearanceSmall""">@style/style_0x7f0f017b</item>"
+        <item name=""""android:textAppearanceLargeInverse""">@style/style_0x7f0f0171</item>"
+        <item name=""""android:textAppearanceMediumInverse""">@style/style_0x7f0f0177</item>"
+        <item name=""""android:textAppearanceSmallInverse""">@style/style_0x7f0f017c</item>"
+        <item name=""""android:windowBackground""">@color/color_0x7f0e0035</item>"
+        <item name=""""android:windowNoTitle""">true</item>"
+        <item name=""""android:textColorHighlight""">@color/color_0x7f0e0047</item>"
+        <item name=""""android:textColorHint""">@color/color_0x7f0e0073</item>"
+        <item name=""""android:textColorLink""">?attr_0x7f0101d8</item>"
+        <item name=""""android:colorForegroundInverse""">@color/color_0x7f0e0044</item>"
+        <item name=""""android:textColorTertiary""">@color/color_0x7f0e007a</item>"
+        <item name=""""android:textColorTertiaryInverse""">@color/color_0x7f0e0079</item>"
+        <item name=""""android:listChoiceIndicatorSingle""">@drawable/drawable_0x7f020008</item>"
+        <item name=""""android:listChoiceIndicatorMultiple""">@drawable/drawable_0x7f020003</item>"
+        <item name=""""android:textColorPrimaryInverseDisableOnly""">@color/color_0x7f0e0074</item>"
+        <item name=""""android:colorBackgroundCacheHint""">@color/color_0x7f0e006e</item>"
+        <item name=""""android:textSelectHandleLeft""">@drawable/drawable_0x7f020049</item>"
+        <item name=""""android:textSelectHandleRight""">@drawable/drawable_0x7f02004d</item>"
+        <item name=""""android:textSelectHandle""">@drawable/drawable_0x7f02004b</item>"
+        <item name=""""android:windowActionBar""">false</item>"
+        <item name=""""android:textColorAlertDialogListItem""">@color/color_0x7f0e0077</item>"
+        <item name=""""android:actionModeCutDrawable""">?attr_0x7f0101a1</item>"
+        <item name=""""android:actionModeCopyDrawable""">?attr_0x7f0101a2</item>"
+        <item name=""""android:actionModePasteDrawable""">?attr_0x7f0101a3</item>"
+        <item name=""""android:borderlessButtonStyle""">?attr_0x7f0101b9</item>"
+        <item name=""""android:buttonBarStyle""">?attr_0x7f0101b5</item>"
+        <item name=""""android:buttonBarButtonStyle""">?attr_0x7f0101b6</item>"
+        <item name=""""android:textColorHighlightInverse""">@color/color_0x7f0e0046</item>"
+        <item name=""""android:textColorLinkInverse""">?attr_0x7f0101d8</item>"
+        <item name=""""android:actionModeSelectAllDrawable""">?attr_0x7f0101a4</item>"
+        <item name=""""android:listPreferredItemPaddingLeft""">@dimen/dimen_0x7f0a00c6</item>"
+        <item name=""""android:listPreferredItemPaddingRight""">@dimen/dimen_0x7f0a00c6</item>"
+    </style>
+    <style name=""""style_0x7f0f0113"""" />
+    <style name=""""style_0x7f0f0114"""" parent=""@style/style_0x7f0f0113">"
+        <item name=""""android:autoCompleteTextViewStyle""">@style/style_0x7f0f01b6</item>"
+        <item name=""""android:dropDownItemStyle""">@style/style_0x7f0f01c3</item>"
+        <item name=""""attr_0x7f010199""">@drawable/drawable_0x7f020026</item>"
+        <item name=""""attr_0x7f0101b0""">@style/style_0x7f0f01ef</item>"
+        <item name=""""attr_0x7f0101b7""">@drawable/drawable_0x7f020026</item>"
+    </style>
+    <style name=""""style_0x7f0f0115"""" parent=""@style/style_0x7f0f0113">"
+        <item name=""""android:autoCompleteTextViewStyle""">@style/style_0x7f0f01d4</item>"
+        <item name=""""android:dropDownItemStyle""">@style/style_0x7f0f01c3</item>"
+        <item name=""""attr_0x7f010199""">@drawable/drawable_0x7f020027</item>"
+        <item name=""""attr_0x7f0101b0""">@style/style_0x7f0f01db</item>"
+        <item name=""""attr_0x7f0101b7""">@drawable/drawable_0x7f020027</item>"
+    </style>
+    <style name=""""style_0x7f0f011a"""" parent=""@style/style_0x7f0f0168">"
+        <item name=""""android:textColor""">?attr_0x7f01019b</item>"
+        <item name=""""attr_0x7f010179""">@bool/bool_0x7f100003</item>"
+    </style>
+    <style name=""""style_0x7f0f011b"""" parent=""@style/style_0x7f0f0168">"
+        <item name=""""android:textColor""">?android:textColorPrimaryInverse</item>"
+    </style>
+    <style name=""""style_0x7f0f011e"""" parent=""@style/style_0x7f0f00f5">"
+        <item name=""""android:textAppearance""">@style/style_0x7f0f018c</item>"
+        <item name=""""android:background""">@drawable/drawable_0x7f020006</item>"
+    </style>
+    <style name=""""style_0x7f0f011f"""" parent=""@android:style/Widget.RatingBar">"
+        <item name=""""android:maxHeight""">36.0dip</item>"
+        <item name=""""android:indeterminateDrawable""">@drawable/drawable_0x7f020036</item>"
+        <item name=""""android:progressDrawable""">@drawable/drawable_0x7f020036</item>"
+        <item name=""""android:minHeight""">36.0dip</item>"
+        <item name=""""android:thumb""">@null</item>"
+        <item name=""""android:isIndicator""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f0120"""" parent=""@android:style/Widget.RatingBar">"
+        <item name=""""android:maxHeight""">16.0dip</item>"
+        <item name=""""android:indeterminateDrawable""">@drawable/drawable_0x7f020038</item>"
+        <item name=""""android:progressDrawable""">@drawable/drawable_0x7f020038</item>"
+        <item name=""""android:minHeight""">16.0dip</item>"
+        <item name=""""android:thumb""">@null</item>"
+        <item name=""""android:isIndicator""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f0121"""" parent=""@style/style_0x7f0f00dd">"
+        <item name=""""android:textColor""">@color/color_0x7f0e006f</item>"
+    </style>
+    <style name=""""style_0x7f0f0122"""" parent=""@style/style_0x7f0f00dd">"
+        <item name=""""android:textColor""">@color/color_0x7f0e0070</item>"
+    </style>
+    <style name=""""style_0x7f0f0128"""" parent=""@style/style_0x7f0f0152"" />
+    <style name=""""style_0x7f0f012b"""" parent=""@style/style_0x7f0f0130"" />
+    <style name=""""style_0x7f0f012c"""" parent=""@style/style_0x7f0f0131"" />
+    <style name=""""style_0x7f0f012d"""" parent=""@style/style_0x7f0f0132"" />
+    <style name=""""style_0x7f0f012e"""" parent=""@style/style_0x7f0f0133"" />
+    <style name=""""style_0x7f0f012f"""" parent=""@style/style_0x7f0f0134"" />
+    <style name=""""style_0x7f0f0130"""" parent=""@android:style/Widget">"
+        <item name=""""android:layout""">@layout/layout_0x7f050009</item>"
+        <item name=""""attr_0x7f01016d""">@layout/layout_0x7f05001a</item>"
+        <item name=""""attr_0x7f01016e""">@layout/layout_0x7f050060</item>"
+        <item name=""""attr_0x7f01016f""">@layout/layout_0x7f050061</item>"
+        <item name=""""attr_0x7f010170""">@layout/layout_0x7f05005f</item>"
+        <item name=""""attr_0x7f010172""">@dimen/dimen_0x7f0a00ae</item>"
+    </style>
+    <style name=""""style_0x7f0f0131"""" parent=""@style/style_0x7f0f0130"" />
+    <style name=""""style_0x7f0f0132"""" parent=""@android:style/Animation">"
+        <item name=""""android:windowEnterAnimation""">@anim/anim_0x7f060003</item>"
+        <item name=""""android:windowExitAnimation""">@anim/anim_0x7f060004</item>"
+    </style>
+    <style name=""""style_0x7f0f0133"""" parent=""@android:style/Animation">"
+        <item name=""""android:windowEnterAnimation""">@anim/anim_0x7f060002</item>"
+        <item name=""""android:windowExitAnimation""">@anim/anim_0x7f060005</item>"
+    </style>
+    <style name=""""style_0x7f0f0134"""" parent=""@android:style/Animation">"
+        <item name=""""android:windowEnterAnimation""">@anim/anim_0x7f06000a</item>"
+        <item name=""""android:windowExitAnimation""">@anim/anim_0x7f06000b</item>"
+    </style>
+    <style name=""""style_0x7f0f0135"""" parent=""@android:style/Widget">"
+        <item name=""""android:textAppearance""">@style/style_0x7f0f017f</item>"
+        <item name=""""android:maxLines""">1</item>"
+        <item name=""""android:scrollHorizontally""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f0136"""" parent=""@android:style/Widget">"
+        <item name=""""android:background""">@null</item>"
+        <item name=""""android:paddingLeft""">?attr_0x7f0101ad</item>"
+        <item name=""""android:paddingTop""">@dimen/dimen_0x7f0a00bb</item>"
+        <item name=""""android:paddingRight""">?attr_0x7f0101ad</item>"
+    </style>
+    <style name=""""style_0x7f0f0137""">"
+        <item name=""""android:textStyle""">normal</item>"
+        <item name=""""android:textColor""">?android:textColorPrimary</item>"
+        <item name=""""android:textColorHint""">?android:textColorHint</item>"
+    </style>
+    <style name=""""style_0x7f0f0138"""" parent=""@style/style_0x7f0f00d5">"
+        <item name=""""android:textColor""">?android:textColorPrimaryInverse</item>"
+        <item name=""""android:textColorHighlight""">?android:textColorHighlightInverse</item>"
+        <item name=""""android:textColorHint""">?android:textColorHintInverse</item>"
+        <item name=""""android:textColorLink""">?android:textColorLinkInverse</item>"
+    </style>
+    <style name=""""style_0x7f0f0139"""" parent=""@style/style_0x7f0f00d6">"
+        <item name=""""android:textColor""">?android:textColorPrimaryInverse</item>"
+        <item name=""""android:textColorHighlight""">?android:textColorHighlightInverse</item>"
+        <item name=""""android:textColorHint""">?android:textColorHintInverse</item>"
+        <item name=""""android:textColorLink""">?android:textColorLinkInverse</item>"
+    </style>
+    <style name=""""style_0x7f0f013a"""" parent=""@style/style_0x7f0f00bf">"
+        <item name=""""android:textSize""">14.0sp</item>"
+    </style>
+    <style name=""""style_0x7f0f013b"""" parent=""@android:style/TextAppearance.Small">"
+        <item name=""""android:textColor""">?android:textColorPrimaryDisableOnly</item>"
+    </style>
+    <style name=""""style_0x7f0f013c"""" parent=""@android:style/TextAppearance.Medium">"
+        <item name=""""android:textColor""">?android:textColorPrimaryDisableOnly</item>"
+    </style>
+    <style name=""""style_0x7f0f013d""">"
+        <item name=""""android:listViewStyle""">@style/style_0x7f0f01e0</item>"
+        <item name=""""android:windowAnimationStyle""">@style/style_0x7f0f012e</item>"
+        <item name=""""android:itemTextAppearance""">?android:textAppearanceMedium</item>"
+    </style>
+    <style name=""""style_0x7f0f013e"""" parent=""@style/style_0x7f0f00e6">"
+        <item name=""""android:windowMinWidthMajor""">@dimen/dimen_0x7f0a009c</item>"
+        <item name=""""android:windowMinWidthMinor""">@dimen/dimen_0x7f0a009d</item>"
+    </style>
+    <style name=""""style_0x7f0f013f"""" parent=""@style/style_0x7f0f00e6">"
+        <item name=""""attr_0x7f010187""">@dimen/dimen_0x7f0a009a</item>"
+        <item name=""""attr_0x7f010188""">@dimen/dimen_0x7f0a0099</item>"
+        <item name=""""attr_0x7f010189""">@dimen/dimen_0x7f0a009b</item>"
+        <item name=""""attr_0x7f01018a""">@dimen/dimen_0x7f0a0098</item>"
+    </style>
+    <style name=""""style_0x7f0f0140"""" parent=""@style/style_0x7f0f00e6">"
+        <item name=""""android:windowMinWidthMajor""">@dimen/dimen_0x7f0a009c</item>"
+        <item name=""""android:windowMinWidthMinor""">@dimen/dimen_0x7f0a009d</item>"
+    </style>
+    <style name=""""style_0x7f0f0141"""" parent=""@style/style_0x7f0f00e7">"
+        <item name=""""attr_0x7f010192""">@style/style_0x7f0f01ab</item>"
+        <item name=""""attr_0x7f010195""">@style/style_0x7f0f01a8</item>"
+        <item name=""""attr_0x7f010196""">@null</item>"
+        <item name=""""attr_0x7f0101d5""">@drawable/drawable_0x7f020032</item>"
+        <item name=""""attr_0x7f0101d6""">@color/color_0x7f0e0056</item>"
+        <item name=""""attr_0x7f0101d7""">@color/color_0x7f0e0054</item>"
+    </style>
+    <style name=""""style_0x7f0f0142"""" parent=""@style/style_0x7f0f00e8">"
+        <item name=""""android:windowMinWidthMajor""">@dimen/dimen_0x7f0a009c</item>"
+        <item name=""""android:windowMinWidthMinor""">@dimen/dimen_0x7f0a009d</item>"
+    </style>
+    <style name=""""style_0x7f0f0143"""" parent=""@style/style_0x7f0f00e8">"
+        <item name=""""attr_0x7f010187""">@dimen/dimen_0x7f0a009a</item>"
+        <item name=""""attr_0x7f010188""">@dimen/dimen_0x7f0a0099</item>"
+        <item name=""""attr_0x7f010189""">@dimen/dimen_0x7f0a009b</item>"
+        <item name=""""attr_0x7f01018a""">@dimen/dimen_0x7f0a0098</item>"
+    </style>
+    <style name=""""style_0x7f0f0144"""" parent=""@style/style_0x7f0f00e8">"
+        <item name=""""android:windowMinWidthMajor""">@dimen/dimen_0x7f0a009c</item>"
+        <item name=""""android:windowMinWidthMinor""">@dimen/dimen_0x7f0a009d</item>"
+    </style>
+    <style name=""""style_0x7f0f0145"""" parent=""@style/style_0x7f0f0113"" />
+    <style name=""""style_0x7f0f0146"""" parent=""@style/style_0x7f0f0145">"
+        <item name=""""attr_0x7f0101c7""">@style/style_0x7f0f01ea</item>"
+        <item name=""""attr_0x7f0101d9""">?android:textColorPrimary</item>"
+    </style>
+    <style name=""""style_0x7f0f0147"""" parent=""@style/style_0x7f0f0114">"
+        <item name=""""android:colorForeground""">@color/color_0x7f0e0044</item>"
+        <item name=""""android:colorBackground""">@color/color_0x7f0e0034</item>"
+        <item name=""""android:textColorPrimary""">@color/color_0x7f0e0076</item>"
+        <item name=""""android:textColorPrimaryDisableOnly""">@color/color_0x7f0e0074</item>"
+        <item name=""""android:textColorSecondary""">@color/color_0x7f0e0079</item>"
+        <item name=""""android:textColorPrimaryInverse""">@color/color_0x7f0e0077</item>"
+        <item name=""""android:textColorSecondaryInverse""">@color/color_0x7f0e007a</item>"
+        <item name=""""android:textColorHintInverse""">@color/color_0x7f0e0073</item>"
+        <item name=""""android:windowBackground""">@color/color_0x7f0e0034</item>"
+        <item name=""""android:textColorHighlight""">@color/color_0x7f0e0046</item>"
+        <item name=""""android:textColorHint""">@color/color_0x7f0e0072</item>"
+        <item name=""""android:colorForegroundInverse""">@color/color_0x7f0e0045</item>"
+        <item name=""""android:textColorTertiary""">@color/color_0x7f0e0079</item>"
+        <item name=""""android:textColorTertiaryInverse""">@color/color_0x7f0e007a</item>"
+        <item name=""""android:colorBackgroundCacheHint""">@color/color_0x7f0e006d</item>"
+        <item name=""""attr_0x7f01014e""">false</item>"
+        <item name=""""attr_0x7f0101d9""">?android:textColorSecondary</item>"
+        <item name=""""attr_0x7f0101db""">@color/color_0x7f0e005b</item>"
+        <item name=""""attr_0x7f0101dc""">@color/color_0x7f0e003c</item>"
+        <item name=""""attr_0x7f0101dd""">@color/color_0x7f0e0098</item>"
+        <item name=""""attr_0x7f0101df""">@color/color_0x7f0e0032</item>"
+    </style>
+    <style name=""""style_0x7f0f0148"""" parent=""@style/style_0x7f0f0147">"
+        <item name=""""attr_0x7f0101c7""">@style/style_0x7f0f01ea</item>"
+        <item name=""""attr_0x7f0101d9""">?android:textColorPrimary</item>"
+    </style>
+    <style name=""""style_0x7f0f0149"""" parent=""@style/style_0x7f0f00e9">"
+        <item name=""""android:windowMinWidthMajor""">@dimen/dimen_0x7f0a009c</item>"
+        <item name=""""android:windowMinWidthMinor""">@dimen/dimen_0x7f0a009d</item>"
+    </style>
+    <style name=""""style_0x7f0f014a"""" parent=""@style/style_0x7f0f0115">"
+        <item name=""""android:colorForeground""">@color/color_0x7f0e0045</item>"
+        <item name=""""android:colorBackground""">@color/color_0x7f0e0035</item>"
+        <item name=""""android:textColorPrimary""">@color/color_0x7f0e0077</item>"
+        <item name=""""android:textColorPrimaryDisableOnly""">@color/color_0x7f0e0075</item>"
+        <item name=""""android:textColorSecondary""">@color/color_0x7f0e007a</item>"
+        <item name=""""android:textColorPrimaryInverse""">@color/color_0x7f0e0076</item>"
+        <item name=""""android:textColorSecondaryInverse""">@color/color_0x7f0e0079</item>"
+        <item name=""""android:textColorHintInverse""">@color/color_0x7f0e0072</item>"
+        <item name=""""android:windowBackground""">@color/color_0x7f0e0035</item>"
+        <item name=""""android:textColorHighlight""">@color/color_0x7f0e0047</item>"
+        <item name=""""android:textColorHint""">@color/color_0x7f0e0073</item>"
+        <item name=""""android:colorForegroundInverse""">@color/color_0x7f0e0044</item>"
+        <item name=""""android:textColorTertiary""">@color/color_0x7f0e007a</item>"
+        <item name=""""android:textColorTertiaryInverse""">@color/color_0x7f0e0079</item>"
+        <item name=""""android:textColorPrimaryInverseDisableOnly""">@color/color_0x7f0e0074</item>"
+        <item name=""""android:colorBackgroundCacheHint""">@color/color_0x7f0e006e</item>"
+        <item name=""""attr_0x7f01014e""">true</item>"
+        <item name=""""attr_0x7f0101d9""">?android:textColorSecondary</item>"
+        <item name=""""attr_0x7f0101db""">@color/color_0x7f0e002a</item>"
+        <item name=""""attr_0x7f0101dc""">@color/color_0x7f0e003d</item>"
+        <item name=""""attr_0x7f0101dd""">@color/color_0x7f0e0099</item>"
+        <item name=""""attr_0x7f0101df""">@color/color_0x7f0e0033</item>"
+    </style>
+    <style name=""""style_0x7f0f014b"""" parent=""@style/style_0x7f0f0111">"
+        <item name=""""android:panelBackground""">@android:color/transparent</item>"
+        <item name=""""android:dropDownListViewStyle""">@style/style_0x7f0f01df</item>"
+        <item name=""""android:dropDownItemStyle""">@style/style_0x7f0f01c3</item>"
+        <item name=""""android:spinnerItemStyle""">@style/style_0x7f0f01f1</item>"
+        <item name=""""android:textAppearanceButton""">@style/style_0x7f0f018a</item>"
+        <item name=""""attr_0x7f01014c""">@style/style_0x7f0f01c2</item>"
+        <item name=""""attr_0x7f01014e""">false</item>"
+        <item name=""""attr_0x7f010183""">true</item>"
+        <item name=""""attr_0x7f010184""">false</item>"
+        <item name=""""attr_0x7f010185""">false</item>"
+        <item name=""""attr_0x7f010186""">false</item>"
+        <item name=""""attr_0x7f010187""">@null</item>"
+        <item name=""""attr_0x7f010188""">@null</item>"
+        <item name=""""attr_0x7f010189""">@null</item>"
+        <item name=""""attr_0x7f01018a""">@null</item>"
+        <item name=""""attr_0x7f01018d""">@style/style_0x7f0f01b0</item>"
+        <item name=""""attr_0x7f01018e""">@style/style_0x7f0f01ae</item>"
+        <item name=""""attr_0x7f01018f""">@style/style_0x7f0f01af</item>"
+        <item name=""""attr_0x7f010190""">@style/style_0x7f0f01b3</item>"
+        <item name=""""attr_0x7f010191""">@style/style_0x7f0f01e2</item>"
+        <item name=""""attr_0x7f010192""">@null</item>"
+        <item name=""""attr_0x7f010193""">@style/style_0x7f0f01ad</item>"
+        <item name=""""attr_0x7f010194""">?attr_0x7f010193</item>"
+        <item name=""""attr_0x7f010195""">@style/style_0x7f0f01a6</item>"
+        <item name=""""attr_0x7f010196""">@null</item>"
+        <item name=""""attr_0x7f010197""">@dimen/dimen_0x7f0a0094</item>"
+        <item name=""""attr_0x7f010198""">?attr_0x7f0101ba</item>"
+        <item name=""""attr_0x7f010199""">?attr_0x7f0101b8</item>"
+        <item name=""""attr_0x7f01019a""">@style/style_0x7f0f0181</item>"
+        <item name=""""attr_0x7f01019b""">?android:textColorPrimaryDisableOnly</item>"
+        <item name=""""attr_0x7f01019c""">@style/style_0x7f0f01b4</item>"
+        <item name=""""attr_0x7f01019d""">@style/style_0x7f0f01b2</item>"
+        <item name=""""attr_0x7f01019e""">@drawable/drawable_0x7f02000e</item>"
+        <item name=""""attr_0x7f01019f""">?attr_0x7f0101d7</item>"
+        <item name=""""attr_0x7f0101a0""">@drawable/drawable_0x7f020013</item>"
+        <item name=""""attr_0x7f0101a1""">@drawable/drawable_0x7f020019</item>"
+        <item name=""""attr_0x7f0101a2""">@drawable/drawable_0x7f020018</item>"
+        <item name=""""attr_0x7f0101a3""">@drawable/drawable_0x7f02001b</item>"
+        <item name=""""attr_0x7f0101a4""">@drawable/drawable_0x7f02001c</item>"
+        <item name=""""attr_0x7f0101a5""">@drawable/drawable_0x7f02001d</item>"
+        <item name=""""attr_0x7f0101a9""">@style/style_0x7f0f0190</item>"
+        <item name=""""attr_0x7f0101aa""">@style/style_0x7f0f0191</item>"
+        <item name=""""attr_0x7f0101ab""">@style/style_0x7f0f018f</item>"
+        <item name=""""attr_0x7f0101ac""">@style/style_0x7f0f01a9</item>"
+        <item name=""""attr_0x7f0101ad""">@dimen/dimen_0x7f0a00ba</item>"
+        <item name=""""attr_0x7f0101ae""">@null</item>"
+        <item name=""""attr_0x7f0101af""">@dimen/dimen_0x7f0a00b7</item>"
+        <item name=""""attr_0x7f0101b0""">@style/style_0x7f0f01ef</item>"
+        <item name=""""attr_0x7f0101b1""">?attr_0x7f0101c9</item>"
+        <item name=""""attr_0x7f0101b2""">@style/style_0x7f0f01c3</item>"
+        <item name=""""attr_0x7f0101b3""">@drawable/drawable_0x7f020013</item>"
+        <item name=""""attr_0x7f0101b4""">@style/style_0x7f0f01b1</item>"
+        <item name=""""attr_0x7f0101b5""">@style/style_0x7f0f01bd</item>"
+        <item name=""""attr_0x7f0101b6""">@style/style_0x7f0f01ba</item>"
+        <item name=""""attr_0x7f0101b7""">@drawable/drawable_0x7f020026</item>"
+        <item name=""""attr_0x7f0101b8""">?attr_0x7f0101b7</item>"
+        <item name=""""attr_0x7f0101b9""">@style/style_0x7f0f01b8</item>"
+        <item name=""""attr_0x7f0101ba""">@drawable/drawable_0x7f020029</item>"
+        <item name=""""attr_0x7f0101bb""">@drawable/drawable_0x7f020029</item>"
+        <item name=""""attr_0x7f0101bc""">@style/style_0x7f0f01b5</item>"
+        <item name=""""attr_0x7f0101bd""">@style/style_0x7f0f01f2</item>"
+        <item name=""""attr_0x7f0101be""">@style/style_0x7f0f01f3</item>"
+        <item name=""""attr_0x7f0101bf""">@style/style_0x7f0f01e1</item>"
+        <item name=""""attr_0x7f0101c1""">?android:textColorPrimary</item>"
+        <item name=""""attr_0x7f0101c2""">@drawable/drawable_0x7f020012</item>"
+        <item name=""""attr_0x7f0101c3""">@style/style_0x7f0f01c5</item>"
+        <item name=""""attr_0x7f0101c4""">@style/style_0x7f0f017a</item>"
+        <item name=""""attr_0x7f0101c5""">@style/style_0x7f0f0179</item>"
+        <item name=""""attr_0x7f0101c6""">@color/color_0x7f0e0078</item>"
+        <item name=""""attr_0x7f0101c7""">@style/style_0x7f0f01e9</item>"
+        <item name=""""attr_0x7f0101c8""">64.0dip</item>"
+        <item name=""""attr_0x7f0101c9""">48.0dip</item>"
+        <item name=""""attr_0x7f0101ca""">80.0dip</item>"
+        <item name=""""attr_0x7f0101cb""">@dimen/dimen_0x7f0a00c6</item>"
+        <item name=""""attr_0x7f0101cc""">@dimen/dimen_0x7f0a00c6</item>"
+        <item name=""""attr_0x7f0101cd""">?android:dropDownListViewStyle</item>"
+        <item name=""""attr_0x7f0101ce""">@style/style_0x7f0f01dd</item>"
+        <item name=""""attr_0x7f0101cf""">@style/style_0x7f0f017d</item>"
+        <item name=""""attr_0x7f0101d0""">@style/style_0x7f0f0166</item>"
+        <item name=""""attr_0x7f0101d1""">@style/style_0x7f0f017d</item>"
+        <item name=""""attr_0x7f0101d2""">@drawable/drawable_0x7f020034</item>"
+        <item name=""""attr_0x7f0101d3""">@dimen/dimen_0x7f0a00c7</item>"
+        <item name=""""attr_0x7f0101d4""">@style/style_0x7f0f0198</item>"
+        <item name=""""attr_0x7f0101d5""">@drawable/drawable_0x7f020032</item>"
+        <item name=""""attr_0x7f0101d6""">@color/color_0x7f0e0056</item>"
+        <item name=""""attr_0x7f0101d7""">@color/color_0x7f0e0054</item>"
+        <item name=""""attr_0x7f0101d8""">@color/color_0x7f0e0030</item>"
+        <item name=""""attr_0x7f0101d9""">?android:textColorSecondary</item>"
+        <item name=""""attr_0x7f0101da""">?attr_0x7f0101d8</item>"
+        <item name=""""attr_0x7f0101db""">@color/color_0x7f0e005b</item>"
+        <item name=""""attr_0x7f0101dc""">@color/color_0x7f0e003c</item>"
+        <item name=""""attr_0x7f0101dd""">@color/color_0x7f0e0098</item>"
+        <item name=""""attr_0x7f0101de""">?attr_0x7f0101b8</item>"
+        <item name=""""attr_0x7f0101df""">@color/color_0x7f0e0032</item>"
+        <item name=""""attr_0x7f0101e0""">@style/style_0x7f0f012b</item>"
+        <item name=""""attr_0x7f0101e2""">false</item>"
+        <item name=""""attr_0x7f0101e3""">@style/style_0x7f0f01aa</item>"
+        <item name=""""attr_0x7f0101e4""">@color/color_0x7f0e0076</item>"
+        <item name=""""attr_0x7f0101e5""">?attr_0x7f0101b6</item>"
+        <item name=""""attr_0x7f0101e6""">?attr_0x7f0101b6</item>"
+        <item name=""""attr_0x7f0101e7""">?attr_0x7f0101b6</item>"
+        <item name=""""attr_0x7f0101e8""">@style/style_0x7f0f01b6</item>"
+        <item name=""""attr_0x7f0101e9""">@style/style_0x7f0f01b7</item>"
+        <item name=""""attr_0x7f0101ea""">@style/style_0x7f0f01bc</item>"
+        <item name=""""attr_0x7f0101eb""">@style/style_0x7f0f01bf</item>"
+        <item name=""""attr_0x7f0101ed""">@style/style_0x7f0f01c4</item>"
+        <item name=""""attr_0x7f0101ee""">@style/style_0x7f0f01c0</item>"
+        <item name=""""attr_0x7f0101ef""">@style/style_0x7f0f01e6</item>"
+        <item name=""""attr_0x7f0101f0""">@style/style_0x7f0f01e7</item>"
+        <item name=""""attr_0x7f0101f1""">@style/style_0x7f0f01e8</item>"
+        <item name=""""attr_0x7f0101f2""">@style/style_0x7f0f01eb</item>"
+        <item name=""""attr_0x7f0101f3""">@style/style_0x7f0f01ed</item>"
+        <item name=""""attr_0x7f0101f4""">@style/style_0x7f0f01c1</item>"
+        <item name=""""attr_0x7f0101f5""">@style/style_0x7f0f01dc</item>"
+        <item name=""""attr_0x7f0101f6""">@drawable/drawable_0x7f020096</item>"
+        <item name=""""attr_0x7f0101f7""">@color/color_0x7f0e0045</item>"
+        <item name=""""attr_0x7f0101f8""">@color/color_0x7f0e0042</item>"
+        <item name=""""attr_0x7f0101f9""">androidx.appcompat.app.AppCompatViewInflater</item>"
+    </style>
+    <style name=""""style_0x7f0f014c"""" parent=""@style/style_0x7f0f00e5">"
+        <item name=""""android:colorBackground""">?attr_0x7f0101df</item>"
+        <item name=""""android:windowBackground""">@drawable/drawable_0x7f020011</item>"
+        <item name=""""android:windowFrame""">@null</item>"
+        <item name=""""android:windowIsFloating""">true</item>"
+        <item name=""""android:windowContentOverlay""">@null</item>"
+        <item name=""""android:windowTitleStyle""">@style/style_0x7f0f00ae</item>"
+        <item name=""""android:windowTitleBackgroundStyle""">@style/style_0x7f0f0136</item>"
+        <item name=""""android:windowAnimationStyle""">@style/style_0x7f0f012d</item>"
+        <item name=""""android:listDivider""">@null</item>"
+        <item name=""""android:backgroundDimEnabled""">true</item>"
+        <item name=""""android:windowSoftInputMode""">adjustPan</item>"
+        <item name=""""android:colorBackgroundCacheHint""">@null</item>"
+        <item name=""""android:borderlessButtonStyle""">@style/style_0x7f0f01b8</item>"
+        <item name=""""android:buttonBarStyle""">@style/style_0x7f0f01be</item>"
+        <item name=""""android:windowCloseOnTouchOutside""">true</item>"
+        <item name=""""attr_0x7f010183""">false</item>"
+        <item name=""""attr_0x7f010186""">true</item>"
+        <item name=""""attr_0x7f0101cb""">24.0dip</item>"
+        <item name=""""attr_0x7f0101cc""">24.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f014d"""" parent=""@style/style_0x7f0f0112">"
+        <item name=""""android:panelBackground""">@android:color/transparent</item>"
+        <item name=""""android:dropDownListViewStyle""">@style/style_0x7f0f01df</item>"
+        <item name=""""android:dropDownItemStyle""">@style/style_0x7f0f01c3</item>"
+        <item name=""""android:spinnerItemStyle""">@style/style_0x7f0f01f1</item>"
+        <item name=""""android:textAppearanceButton""">@style/style_0x7f0f018a</item>"
+        <item name=""""attr_0x7f01014c""">@style/style_0x7f0f01c2</item>"
+        <item name=""""attr_0x7f01014e""">true</item>"
+        <item name=""""attr_0x7f010183""">true</item>"
+        <item name=""""attr_0x7f010184""">false</item>"
+        <item name=""""attr_0x7f010185""">false</item>"
+        <item name=""""attr_0x7f010186""">false</item>"
+        <item name=""""attr_0x7f010187""">@null</item>"
+        <item name=""""attr_0x7f010188""">@null</item>"
+        <item name=""""attr_0x7f010189""">@null</item>"
+        <item name=""""attr_0x7f01018a""">@null</item>"
+        <item name=""""attr_0x7f01018d""">@style/style_0x7f0f01cd</item>"
+        <item name=""""attr_0x7f01018e""">@style/style_0x7f0f01c9</item>"
+        <item name=""""attr_0x7f01018f""">@style/style_0x7f0f01cb</item>"
+        <item name=""""attr_0x7f010190""">@style/style_0x7f0f01d1</item>"
+        <item name=""""attr_0x7f010191""">@style/style_0x7f0f01d9</item>"
+        <item name=""""attr_0x7f010192""">@null</item>"
+        <item name=""""attr_0x7f010193""">@style/style_0x7f0f01c7</item>"
+        <item name=""""attr_0x7f010194""">?attr_0x7f010193</item>"
+        <item name=""""attr_0x7f010195""">@style/style_0x7f0f01a6</item>"
+        <item name=""""attr_0x7f010196""">@null</item>"
+        <item name=""""attr_0x7f010197""">@dimen/dimen_0x7f0a0094</item>"
+        <item name=""""attr_0x7f010198""">?attr_0x7f0101ba</item>"
+        <item name=""""attr_0x7f010199""">?attr_0x7f0101b8</item>"
+        <item name=""""attr_0x7f01019a""">@style/style_0x7f0f0181</item>"
+        <item name=""""attr_0x7f01019b""">?android:textColorPrimaryDisableOnly</item>"
+        <item name=""""attr_0x7f01019c""">@style/style_0x7f0f01b4</item>"
+        <item name=""""attr_0x7f01019d""">@style/style_0x7f0f01b2</item>"
+        <item name=""""attr_0x7f01019e""">@drawable/drawable_0x7f02000e</item>"
+        <item name=""""attr_0x7f01019f""">?attr_0x7f0101d7</item>"
+        <item name=""""attr_0x7f0101a0""">@drawable/drawable_0x7f020013</item>"
+        <item name=""""attr_0x7f0101a1""">@drawable/drawable_0x7f020019</item>"
+        <item name=""""attr_0x7f0101a2""">@drawable/drawable_0x7f020018</item>"
+        <item name=""""attr_0x7f0101a3""">@drawable/drawable_0x7f02001b</item>"
+        <item name=""""attr_0x7f0101a4""">@drawable/drawable_0x7f02001c</item>"
+        <item name=""""attr_0x7f0101a5""">@drawable/drawable_0x7f02001d</item>"
+        <item name=""""attr_0x7f0101a9""">@style/style_0x7f0f0174</item>"
+        <item name=""""attr_0x7f0101aa""">@style/style_0x7f0f0175</item>"
+        <item name=""""attr_0x7f0101ab""">@style/style_0x7f0f018f</item>"
+        <item name=""""attr_0x7f0101ac""">@style/style_0x7f0f01a9</item>"
+        <item name=""""attr_0x7f0101ad""">@dimen/dimen_0x7f0a00ba</item>"
+        <item name=""""attr_0x7f0101ae""">@null</item>"
+        <item name=""""attr_0x7f0101af""">@dimen/dimen_0x7f0a00b7</item>"
+        <item name=""""attr_0x7f0101b0""">@style/style_0x7f0f01db</item>"
+        <item name=""""attr_0x7f0101b1""">?attr_0x7f0101c9</item>"
+        <item name=""""attr_0x7f0101b2""">@style/style_0x7f0f01c3</item>"
+        <item name=""""attr_0x7f0101b3""">@drawable/drawable_0x7f020013</item>"
+        <item name=""""attr_0x7f0101b4""">@style/style_0x7f0f01cf</item>"
+        <item name=""""attr_0x7f0101b5""">@style/style_0x7f0f01bd</item>"
+        <item name=""""attr_0x7f0101b6""">@style/style_0x7f0f01ba</item>"
+        <item name=""""attr_0x7f0101b7""">@drawable/drawable_0x7f020027</item>"
+        <item name=""""attr_0x7f0101b8""">?attr_0x7f0101b7</item>"
+        <item name=""""attr_0x7f0101b9""">@style/style_0x7f0f01b8</item>"
+        <item name=""""attr_0x7f0101ba""">@drawable/drawable_0x7f020029</item>"
+        <item name=""""attr_0x7f0101bb""">@drawable/drawable_0x7f020029</item>"
+        <item name=""""attr_0x7f0101bc""">@style/style_0x7f0f01b5</item>"
+        <item name=""""attr_0x7f0101bd""">@style/style_0x7f0f01f2</item>"
+        <item name=""""attr_0x7f0101be""">@style/style_0x7f0f01f3</item>"
+        <item name=""""attr_0x7f0101bf""">@style/style_0x7f0f01d8</item>"
+        <item name=""""attr_0x7f0101c1""">?android:textColorPrimary</item>"
+        <item name=""""attr_0x7f0101c2""">@drawable/drawable_0x7f020012</item>"
+        <item name=""""attr_0x7f0101c3""">@style/style_0x7f0f01c5</item>"
+        <item name=""""attr_0x7f0101c4""">@style/style_0x7f0f017a</item>"
+        <item name=""""attr_0x7f0101c5""">@style/style_0x7f0f0179</item>"
+        <item name=""""attr_0x7f0101c6""">@color/color_0x7f0e0078</item>"
+        <item name=""""attr_0x7f0101c7""">@style/style_0x7f0f01da</item>"
+        <item name=""""attr_0x7f0101c8""">64.0dip</item>"
+        <item name=""""attr_0x7f0101c9""">48.0dip</item>"
+        <item name=""""attr_0x7f0101ca""">80.0dip</item>"
+        <item name=""""attr_0x7f0101cb""">@dimen/dimen_0x7f0a00c6</item>"
+        <item name=""""attr_0x7f0101cc""">@dimen/dimen_0x7f0a00c6</item>"
+        <item name=""""attr_0x7f0101cd""">?android:dropDownListViewStyle</item>"
+        <item name=""""attr_0x7f0101ce""">@style/style_0x7f0f01dd</item>"
+        <item name=""""attr_0x7f0101cf""">@style/style_0x7f0f017d</item>"
+        <item name=""""attr_0x7f0101d0""">@style/style_0x7f0f0166</item>"
+        <item name=""""attr_0x7f0101d1""">@style/style_0x7f0f017d</item>"
+        <item name=""""attr_0x7f0101d2""">@drawable/drawable_0x7f020034</item>"
+        <item name=""""attr_0x7f0101d3""">@dimen/dimen_0x7f0a00c7</item>"
+        <item name=""""attr_0x7f0101d4""">@style/style_0x7f0f0198</item>"
+        <item name=""""attr_0x7f0101d5""">@drawable/drawable_0x7f020033</item>"
+        <item name=""""attr_0x7f0101d6""">@color/color_0x7f0e0057</item>"
+        <item name=""""attr_0x7f0101d7""">@color/color_0x7f0e0055</item>"
+        <item name=""""attr_0x7f0101d8""">@color/color_0x7f0e0031</item>"
+        <item name=""""attr_0x7f0101d9""">?android:textColorSecondary</item>"
+        <item name=""""attr_0x7f0101da""">?attr_0x7f0101d8</item>"
+        <item name=""""attr_0x7f0101db""">@color/color_0x7f0e002a</item>"
+        <item name=""""attr_0x7f0101dc""">@color/color_0x7f0e003d</item>"
+        <item name=""""attr_0x7f0101dd""">@color/color_0x7f0e0099</item>"
+        <item name=""""attr_0x7f0101de""">?attr_0x7f0101b8</item>"
+        <item name=""""attr_0x7f0101df""">@color/color_0x7f0e0033</item>"
+        <item name=""""attr_0x7f0101e0""">@style/style_0x7f0f012c</item>"
+        <item name=""""attr_0x7f0101e2""">false</item>"
+        <item name=""""attr_0x7f0101e3""">@style/style_0x7f0f01aa</item>"
+        <item name=""""attr_0x7f0101e4""">@color/color_0x7f0e0077</item>"
+        <item name=""""attr_0x7f0101e5""">?attr_0x7f0101b6</item>"
+        <item name=""""attr_0x7f0101e6""">?attr_0x7f0101b6</item>"
+        <item name=""""attr_0x7f0101e7""">?attr_0x7f0101b6</item>"
+        <item name=""""attr_0x7f0101e8""">@style/style_0x7f0f01b6</item>"
+        <item name=""""attr_0x7f0101e9""">@style/style_0x7f0f01b7</item>"
+        <item name=""""attr_0x7f0101ea""">@style/style_0x7f0f01bc</item>"
+        <item name=""""attr_0x7f0101eb""">@style/style_0x7f0f01bf</item>"
+        <item name=""""attr_0x7f0101ed""">@style/style_0x7f0f01c4</item>"
+        <item name=""""attr_0x7f0101ee""">@style/style_0x7f0f01c0</item>"
+        <item name=""""attr_0x7f0101ef""">@style/style_0x7f0f01e6</item>"
+        <item name=""""attr_0x7f0101f0""">@style/style_0x7f0f01e7</item>"
+        <item name=""""attr_0x7f0101f1""">@style/style_0x7f0f01e8</item>"
+        <item name=""""attr_0x7f0101f2""">@style/style_0x7f0f01eb</item>"
+        <item name=""""attr_0x7f0101f3""">@style/style_0x7f0f01ed</item>"
+        <item name=""""attr_0x7f0101f4""">@style/style_0x7f0f01c1</item>"
+        <item name=""""attr_0x7f0101f5""">@style/style_0x7f0f01dc</item>"
+        <item name=""""attr_0x7f0101f6""">@drawable/drawable_0x7f020095</item>"
+        <item name=""""attr_0x7f0101f7""">@color/color_0x7f0e0044</item>"
+        <item name=""""attr_0x7f0101f8""">@color/color_0x7f0e0043</item>"
+        <item name=""""attr_0x7f0101f9""">androidx.appcompat.app.AppCompatViewInflater</item>"
+    </style>
+    <style name=""""style_0x7f0f014e"""" parent=""@style/style_0x7f0f00e7">"
+        <item name=""""android:colorBackground""">?attr_0x7f0101df</item>"
+        <item name=""""android:windowBackground""">@drawable/drawable_0x7f020011</item>"
+        <item name=""""android:windowFrame""">@null</item>"
+        <item name=""""android:windowIsFloating""">true</item>"
+        <item name=""""android:windowContentOverlay""">@null</item>"
+        <item name=""""android:windowTitleStyle""">@style/style_0x7f0f00ae</item>"
+        <item name=""""android:windowTitleBackgroundStyle""">@style/style_0x7f0f0136</item>"
+        <item name=""""android:windowAnimationStyle""">@style/style_0x7f0f012d</item>"
+        <item name=""""android:listDivider""">@null</item>"
+        <item name=""""android:backgroundDimEnabled""">true</item>"
+        <item name=""""android:windowSoftInputMode""">adjustPan</item>"
+        <item name=""""android:colorBackgroundCacheHint""">@null</item>"
+        <item name=""""android:borderlessButtonStyle""">@style/style_0x7f0f01b8</item>"
+        <item name=""""android:buttonBarStyle""">@style/style_0x7f0f01be</item>"
+        <item name=""""android:windowCloseOnTouchOutside""">true</item>"
+        <item name=""""attr_0x7f010183""">false</item>"
+        <item name=""""attr_0x7f010186""">true</item>"
+        <item name=""""attr_0x7f0101cb""">24.0dip</item>"
+        <item name=""""attr_0x7f0101cc""">24.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f014f"""" parent=""@style/style_0x7f0f0145">"
+        <item name=""""android:colorBackground""">?attr_0x7f0101df</item>"
+        <item name=""""android:windowBackground""">@drawable/drawable_0x7f020011</item>"
+        <item name=""""android:windowFrame""">@null</item>"
+        <item name=""""android:windowIsFloating""">true</item>"
+        <item name=""""android:windowContentOverlay""">@null</item>"
+        <item name=""""android:windowTitleStyle""">@style/style_0x7f0f00ae</item>"
+        <item name=""""android:windowTitleBackgroundStyle""">@style/style_0x7f0f0136</item>"
+        <item name=""""android:windowAnimationStyle""">@style/style_0x7f0f012d</item>"
+        <item name=""""android:listDivider""">@null</item>"
+        <item name=""""android:backgroundDimEnabled""">true</item>"
+        <item name=""""android:windowSoftInputMode""">adjustPan</item>"
+        <item name=""""android:colorBackgroundCacheHint""">@null</item>"
+        <item name=""""android:borderlessButtonStyle""">@style/style_0x7f0f01b8</item>"
+        <item name=""""android:buttonBarStyle""">@style/style_0x7f0f01be</item>"
+        <item name=""""android:windowCloseOnTouchOutside""">true</item>"
+        <item name=""""attr_0x7f010183""">false</item>"
+        <item name=""""attr_0x7f010186""">true</item>"
+        <item name=""""attr_0x7f010187""">@null</item>"
+        <item name=""""attr_0x7f010188""">@null</item>"
+        <item name=""""attr_0x7f010189""">@null</item>"
+        <item name=""""attr_0x7f01018a""">@null</item>"
+        <item name=""""attr_0x7f0101cb""">24.0dip</item>"
+        <item name=""""attr_0x7f0101cc""">24.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f0150"""" parent=""@android:style/Widget.AutoCompleteTextView">"
+        <item name=""""android:textAppearance""">?android:textAppearanceMediumInverse</item>"
+        <item name=""""android:textColor""">?attr_0x7f0101c1</item>"
+        <item name=""""android:background""">?attr_0x7f0101c2</item>"
+        <item name=""""android:dropDownSelector""">?attr_0x7f0101d5</item>"
+        <item name=""""android:popupBackground""">@drawable/drawable_0x7f020035</item>"
+        <item name=""""android:textCursorDrawable""">@drawable/drawable_0x7f020047</item>"
+    </style>
+    <style name=""""style_0x7f0f0151"""" parent=""@android:style/Widget.EditText">"
+        <item name=""""android:textAppearance""">?android:textAppearanceMediumInverse</item>"
+        <item name=""""android:textColor""">?attr_0x7f0101c1</item>"
+        <item name=""""android:background""">?attr_0x7f0101c2</item>"
+        <item name=""""android:textCursorDrawable""">@drawable/drawable_0x7f020047</item>"
+    </style>
+    <style name=""""style_0x7f0f0152"""" parent=""@android:style/Widget">"
+        <item name=""""android:paddingLeft""">@dimen/dimen_0x7f0a00a1</item>"
+        <item name=""""android:paddingRight""">@dimen/dimen_0x7f0a00a0</item>"
+        <item name=""""android:minHeight""">?attr_0x7f010197</item>"
+        <item name=""""attr_0x7f010161""">16.0dip</item>"
+        <item name=""""attr_0x7f010165""">@dimen/dimen_0x7f0a009f</item>"
+        <item name=""""attr_0x7f01022e""">@style/style_0x7f0f0196</item>"
+        <item name=""""attr_0x7f01022f""">@style/style_0x7f0f0195</item>"
+        <item name=""""attr_0x7f010230""">4.0dip</item>"
+        <item name=""""attr_0x7f010236""">@dimen/dimen_0x7f0a0094</item>"
+        <item name=""""attr_0x7f010237""">id_0x7f0b0047</item>"
+        <item name=""""attr_0x7f010238""">?attr_0x7f0101b3</item>"
+        <item name=""""attr_0x7f010239""">@string/string_0x7f0c003d</item>"
+    </style>
+    <style name=""""style_0x7f0f0153""">"
+        <item name=""""android:gravity""">center_vertical</item>"
+        <item name=""""attr_0x7f01014d""">?attr_0x7f010197</item>"
+        <item name=""""attr_0x7f010151""">id_0x7f0b0072</item>"
+        <item name=""""attr_0x7f010153""">@style/style_0x7f0f0184</item>"
+        <item name=""""attr_0x7f010154""">@style/style_0x7f0f0182</item>"
+        <item name=""""attr_0x7f010156""">?attr_0x7f0101ba</item>"
+        <item name=""""attr_0x7f010157""">@null</item>"
+        <item name=""""attr_0x7f010158""">@null</item>"
+        <item name=""""attr_0x7f010159""">@null</item>"
+        <item name=""""attr_0x7f010161""">@dimen/dimen_0x7f0a009e</item>"
+        <item name=""""attr_0x7f010162""">@dimen/dimen_0x7f0a009e</item>"
+        <item name=""""attr_0x7f010165""">@dimen/dimen_0x7f0a009f</item>"
+        <item name=""""attr_0x7f010167""">@dimen/dimen_0x7f0a00a3</item>"
+        <item name=""""attr_0x7f010168""">?attr_0x7f010192</item>"
+        <item name=""""attr_0x7f010190""">@style/style_0x7f0f01b3</item>"
+        <item name=""""attr_0x7f0101b4""">@style/style_0x7f0f01b1</item>"
+    </style>
+    <style name=""""style_0x7f0f0154"""" parent=""@style/style_0x7f0f0153">"
+        <item name=""""attr_0x7f010157""">?attr_0x7f0101d6</item>"
+        <item name=""""attr_0x7f010158""">?attr_0x7f0101d6</item>"
+        <item name=""""attr_0x7f010159""">?attr_0x7f0101d6</item>"
+    </style>
+    <style name=""""style_0x7f0f0155""">"
+        <item name=""""attr_0x7f010156""">?attr_0x7f010198</item>"
+        <item name=""""attr_0x7f010206""">id_0x7f0b0077</item>"
+        <item name=""""attr_0x7f010207""">8.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f0156""">"
+        <item name=""""attr_0x7f01014d""">?attr_0x7f010197</item>"
+        <item name=""""attr_0x7f010153""">@style/style_0x7f0f0188</item>"
+        <item name=""""attr_0x7f010154""">@style/style_0x7f0f0186</item>"
+        <item name=""""attr_0x7f010157""">?attr_0x7f01019e</item>"
+        <item name=""""attr_0x7f010159""">?attr_0x7f01019f</item>"
+        <item name=""""attr_0x7f010169""">@layout/layout_0x7f050005</item>"
+    </style>
+    <style name=""""style_0x7f0f0157""">"
+        <item name=""""android:gravity""">center</item>"
+        <item name=""""android:background""">@drawable/drawable_0x7f020000</item>"
+        <item name=""""attr_0x7f010156""">?attr_0x7f0101ba</item>"
+        <item name=""""attr_0x7f010206""">id_0x7f0b0077</item>"
+        <item name=""""attr_0x7f010207""">6.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f0158"""" parent=""@style/style_0x7f0f01b9">"
+        <item name=""""android:minWidth""">64.0dip</item>"
+        <item name=""""android:minHeight""">@dimen/dimen_0x7f0a0093</item>"
+    </style>
+    <style name=""""style_0x7f0f0159"""" parent=""@style/style_0x7f0f00f9"" />
+    <style name=""""style_0x7f0f015a"""" parent=""@android:style/Widget.CompoundButton">"
+        <item name=""""android:background""">?attr_0x7f0101de</item>"
+        <item name=""""android:textOn""">@string/string_0x7f0c002a</item>"
+        <item name=""""android:textOff""">@string/string_0x7f0c0029</item>"
+        <item name=""""android:thumb""">@drawable/drawable_0x7f020043</item>"
+        <item name=""""attr_0x7f010225""">@drawable/drawable_0x7f020044</item>"
+        <item name=""""attr_0x7f010229""">@style/style_0x7f0f0192</item>"
+        <item name=""""attr_0x7f01022b""">@dimen/dimen_0x7f0a00a2</item>"
+        <item name=""""attr_0x7f01022d""">false</item>"
+    </style>
+    <style name=""""style_0x7f0f015b""">"
+        <item name=""""attr_0x7f0101fd""">?android:textColorSecondary</item>"
+        <item name=""""attr_0x7f0101fe""">true</item>"
+        <item name=""""attr_0x7f010201""">8.0dip</item>"
+        <item name=""""attr_0x7f010202""">16.0dip</item>"
+        <item name=""""attr_0x7f010204""">2.0dip</item>"
+    </style>
+    <style name=""""style_0x7f0f015c"""" parent=""@style/style_0x7f0f0153">"
+        <item name=""""attr_0x7f010190""">@style/style_0x7f0f01d1</item>"
+        <item name=""""attr_0x7f0101b4""">@style/style_0x7f0f01cf</item>"
+    </style>
+    <style name=""""style_0x7f0f015d"""" parent=""@style/style_0x7f0f015c">"
+        <item name=""""attr_0x7f010157""">?attr_0x7f0101d6</item>"
+        <item name=""""attr_0x7f010158""">?attr_0x7f0101d6</item>"
+        <item name=""""attr_0x7f010159""">?attr_0x7f0101d6</item>"
+    </style>
+    <style name=""""style_0x7f0f015e"""" parent=""@style/style_0x7f0f0155"" />
+    <style name=""""style_0x7f0f015f"""" parent=""@android:style/Widget">"
+        <item name=""""attr_0x7f010212""">@drawable/drawable_0x7f020014</item>"
+    </style>
+    <style name=""""style_0x7f0f0160"""" parent=""@android:style/Widget.PopupWindow"" />
+    <style name=""""style_0x7f0f0161"""" parent=""@android:style/Widget">"
+        <item name=""""attr_0x7f010086""">@drawable/drawable_0x7f020015</item>"
+        <item name=""""attr_0x7f010217""">@layout/layout_0x7f050019</item>"
+        <item name=""""attr_0x7f01021b""">@drawable/drawable_0x7f020017</item>"
+        <item name=""""attr_0x7f01021c""">@drawable/drawable_0x7f02001e</item>"
+        <item name=""""attr_0x7f01021d""">@drawable/drawable_0x7f02001e</item>"
+        <item name=""""attr_0x7f01021e""">@drawable/drawable_0x7f020025</item>"
+        <item name=""""attr_0x7f01021f""">@drawable/drawable_0x7f020016</item>"
+        <item name=""""attr_0x7f010220""">@layout/layout_0x7f050018</item>"
+        <item name=""""attr_0x7f010221""">@drawable/drawable_0x7f020052</item>"
+        <item name=""""attr_0x7f010222""">@drawable/drawable_0x7f020052</item>"
+    </style>
+    <style name=""""style_0x7f0f0162"""" parent=""@style/style_0x7f0f0161">"
+        <item name=""""attr_0x7f01021a""">@string/string_0x7f0c0035</item>"
+        <item name=""""attr_0x7f01021d""">@null</item>"
+        <item name=""""attr_0x7f010221""">@null</item>"
+        <item name=""""attr_0x7f010222""">@null</item>"
+    </style>
+    <style name=""""style_0x7f0f0163"""" parent=""@style/style_0x7f0f010d">"
+        <item name=""""attr_0x7f010176""">@drawable/drawable_0x7f02003f</item>"
+    </style>
+    <style name=""""style_0x7f0f0164"""" parent=""@android:style/Widget.Holo.Spinner"" />
+    <style name=""""style_0x7f0f0165"""" parent=""@style/style_0x7f0f00bf"" />
+    <style name=""""style_0x7f0f0166"""" parent=""@style/style_0x7f0f00c0"" />
+    <style name=""""style_0x7f0f0167"""" parent=""@style/style_0x7f0f00c1"" />
+    <style name=""""style_0x7f0f0168"""" parent=""@style/style_0x7f0f00c2"" />
+    <style name=""""style_0x7f0f0169"""" parent=""@style/style_0x7f0f00c3"" />
+    <style name=""""style_0x7f0f016a"""" parent=""@style/style_0x7f0f00c4"" />
+    <style name=""""style_0x7f0f016b"""" parent=""@style/style_0x7f0f00c5"" />
+    <style name=""""style_0x7f0f016c"""" parent=""@style/style_0x7f0f00c6"" />
+    <style name=""""style_0x7f0f016d"""" parent=""@style/style_0x7f0f00c7"" />
+    <style name=""""style_0x7f0f016e"""" parent=""@style/style_0x7f0f00c8"" />
+    <style name=""""style_0x7f0f016f"""" parent=""@style/style_0x7f0f00c9"" />
+    <style name=""""style_0x7f0f0170"""" parent=""@style/style_0x7f0f00ca"" />
+    <style name=""""style_0x7f0f0171"""" parent=""@style/style_0x7f0f00cb"" />
+    <style name=""""style_0x7f0f0172"""" parent=""@style/style_0x7f0f0179"" />
+    <style name=""""style_0x7f0f0173"""" parent=""@style/style_0x7f0f017a"" />
+    <style name=""""style_0x7f0f0174"""" parent=""@style/style_0x7f0f0190"" />
+    <style name=""""style_0x7f0f0175"""" parent=""@style/style_0x7f0f0191"" />
+    <style name=""""style_0x7f0f0176"""" parent=""@style/style_0x7f0f00ce"" />
+    <style name=""""style_0x7f0f0177"""" parent=""@style/style_0x7f0f00cf"" />
+    <style name=""""style_0x7f0f0178"""" parent=""@style/style_0x7f0f00d0"" />
+    <style name=""""style_0x7f0f0179"""" parent=""@style/style_0x7f0f00d1"" />
+    <style name=""""style_0x7f0f017a"""" parent=""@style/style_0x7f0f00d2"" />
+    <style name=""""style_0x7f0f017b"""" parent=""@style/style_0x7f0f00d3"" />
+    <style name=""""style_0x7f0f017c"""" parent=""@style/style_0x7f0f00d4"" />
+    <style name=""""style_0x7f0f017d"""" parent=""@style/style_0x7f0f00d5"" />
+    <style name=""""style_0x7f0f017e"""" parent=""@style/style_0x7f0f0138"" />
+    <style name=""""style_0x7f0f017f"""" parent=""@style/style_0x7f0f00d6"" />
+    <style name=""""style_0x7f0f0180"""" parent=""@style/style_0x7f0f0139"" />
+    <style name=""""style_0x7f0f0181"""" parent=""@style/style_0x7f0f011a"" />
+    <style name=""""style_0x7f0f0182"""" parent=""@style/style_0x7f0f00d7"" />
+    <style name=""""style_0x7f0f0183"""" parent=""@style/style_0x7f0f00d8"" />
+    <style name=""""style_0x7f0f0184"""" parent=""@style/style_0x7f0f00d9"" />
+    <style name=""""style_0x7f0f0185"""" parent=""@style/style_0x7f0f00da"" />
+    <style name=""""style_0x7f0f0186"""" parent=""@style/style_0x7f0f00db"" />
+    <style name=""""style_0x7f0f0187"""" parent=""@style/style_0x7f0f0186"" />
+    <style name=""""style_0x7f0f0188"""" parent=""@style/style_0x7f0f00dc"" />
+    <style name=""""style_0x7f0f0189"""" parent=""@style/style_0x7f0f0188"" />
+    <style name=""""style_0x7f0f018a"""" parent=""@style/style_0x7f0f00dd"" />
+    <style name=""""style_0x7f0f018b"""" parent=""@style/style_0x7f0f0121"" />
+    <style name=""""style_0x7f0f018c"""" parent=""@style/style_0x7f0f0122"" />
+    <style name=""""style_0x7f0f018d"""" parent=""@style/style_0x7f0f011b"" />
+    <style name=""""style_0x7f0f018e"""" parent=""@style/style_0x7f0f013b"" />
+    <style name=""""style_0x7f0f018f"""" parent=""@style/style_0x7f0f00de"" />
+    <style name=""""style_0x7f0f0190"""" parent=""@style/style_0x7f0f00df"" />
+    <style name=""""style_0x7f0f0191"""" parent=""@style/style_0x7f0f00e0"" />
+    <style name=""""style_0x7f0f0192"""" parent=""@style/style_0x7f0f00e1"" />
+    <style name=""""style_0x7f0f0193"""" parent=""@style/style_0x7f0f00e2"" />
+    <style name=""""style_0x7f0f0194"""" parent=""@style/style_0x7f0f013c"" />
+    <style name=""""style_0x7f0f0195"""" parent=""@style/style_0x7f0f00e3"" />
+    <style name=""""style_0x7f0f0196"""" parent=""@style/style_0x7f0f00e4"" />
+    <style name=""""style_0x7f0f0197"""" parent=""@style/style_0x7f0f00e5"" />
+    <style name=""""style_0x7f0f0198"""" parent=""@style/style_0x7f0f013d"" />
+    <style name=""""style_0x7f0f0199"""" parent=""@style/style_0x7f0f00e6"" />
+    <style name=""""style_0x7f0f019a"""" parent=""@style/style_0x7f0f013e"" />
+    <style name=""""style_0x7f0f019b"""" parent=""@style/style_0x7f0f0140"" />
+    <style name=""""style_0x7f0f019c"""" parent=""@style/style_0x7f0f00a3"" />
+    <style name=""""style_0x7f0f019d"""" parent=""@style/style_0x7f0f00e7"" />
+    <style name=""""style_0x7f0f019e"""" parent=""@style/style_0x7f0f0141"" />
+    <style name=""""style_0x7f0f019f"""" parent=""@style/style_0x7f0f00e8"" />
+    <style name=""""style_0x7f0f01a0"""" parent=""@style/style_0x7f0f0142"" />
+    <style name=""""style_0x7f0f01a1"""" parent=""@style/style_0x7f0f0144"" />
+    <style name=""""style_0x7f0f01a2"""" parent=""@style/style_0x7f0f00a4"" />
+    <style name=""""style_0x7f0f01a3"""" parent=""@style/style_0x7f0f019d">"
+        <item name=""""attr_0x7f010183""">false</item>"
+        <item name=""""attr_0x7f010184""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f01a4"""" parent=""@style/style_0x7f0f0197">"
+        <item name=""""attr_0x7f010183""">false</item>"
+        <item name=""""attr_0x7f010184""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f01a5"""" parent=""@style/style_0x7f0f0145"" />
+    <style name=""""style_0x7f0f01a6"""" parent=""@style/style_0x7f0f0146"" />
+    <style name=""""style_0x7f0f01a7"""" parent=""@style/style_0x7f0f0147"" />
+    <style name=""""style_0x7f0f01a8"""" parent=""@style/style_0x7f0f0148"" />
+    <style name=""""style_0x7f0f01a9"""" parent=""@style/style_0x7f0f00e9"" />
+    <style name=""""style_0x7f0f01aa"""" parent=""@style/style_0x7f0f0149"" />
+    <style name=""""style_0x7f0f01ab"""" parent=""@style/style_0x7f0f014a"" />
+    <style name=""""style_0x7f0f01ac"""" parent=""@style/style_0x7f0f0153"" />
+    <style name=""""style_0x7f0f01ad"""" parent=""@style/style_0x7f0f0154"" />
+    <style name=""""style_0x7f0f01ae"""" parent=""@style/style_0x7f0f0155"" />
+    <style name=""""style_0x7f0f01af"""" parent=""@style/style_0x7f0f00ef"" />
+    <style name=""""style_0x7f0f01b0"""" parent=""@style/style_0x7f0f00f0"" />
+    <style name=""""style_0x7f0f01b1"""" parent=""@style/style_0x7f0f00f1"" />
+    <style name=""""style_0x7f0f01b2"""" parent=""@style/style_0x7f0f00f2"" />
+    <style name=""""style_0x7f0f01b3"""" parent=""@style/style_0x7f0f00f3"" />
+    <style name=""""style_0x7f0f01b4"""" parent=""@style/style_0x7f0f0156"" />
+    <style name=""""style_0x7f0f01b5"""" parent=""@style/style_0x7f0f0157"" />
+    <style name=""""style_0x7f0f01b6"""" parent=""@style/style_0x7f0f00f4"" />
+    <style name=""""style_0x7f0f01b7"""" parent=""@style/style_0x7f0f00f5"" />
+    <style name=""""style_0x7f0f01b8"""" parent=""@style/style_0x7f0f00f6"" />
+    <style name=""""style_0x7f0f01b9"""" parent=""@style/style_0x7f0f00f7"" />
+    <style name=""""style_0x7f0f01ba"""" parent=""@style/style_0x7f0f0158"" />
+    <style name=""""style_0x7f0f01bb"""" parent=""@style/style_0x7f0f011e"" />
+    <style name=""""style_0x7f0f01bc"""" parent=""@style/style_0x7f0f00f8"" />
+    <style name=""""style_0x7f0f01bd"""" parent=""@style/style_0x7f0f00f9"" />
+    <style name=""""style_0x7f0f01be"""" parent=""@style/style_0x7f0f0159"" />
+    <style name=""""style_0x7f0f01bf"""" parent=""@style/style_0x7f0f00fa"" />
+    <style name=""""style_0x7f0f01c0"""" parent=""@style/style_0x7f0f00fb"" />
+    <style name=""""style_0x7f0f01c1"""" parent=""@style/style_0x7f0f015a"" />
+    <style name=""""style_0x7f0f01c2"""" parent=""@style/style_0x7f0f00a2">"
+        <item name=""""attr_0x7f0101fd""">?attr_0x7f0101d9</item>"
+    </style>
+    <style name=""""style_0x7f0f01c3"""" parent=""@style/style_0x7f0f00bb"" />
+    <style name=""""style_0x7f0f01c4"""" parent=""@style/style_0x7f0f00fd"" />
+    <style name=""""style_0x7f0f01c5"""" parent=""@style/style_0x7f0f00fe"" />
+    <style name=""""style_0x7f0f01c6"""" parent=""@style/style_0x7f0f015c"" />
+    <style name=""""style_0x7f0f01c7"""" parent=""@style/style_0x7f0f015d"" />
+    <style name=""""style_0x7f0f01c8"""" parent=""@style/style_0x7f0f01c7"" />
+    <style name=""""style_0x7f0f01c9"""" parent=""@style/style_0x7f0f015e"" />
+    <style name=""""style_0x7f0f01ca"""" parent=""@style/style_0x7f0f01c9"" />
+    <style name=""""style_0x7f0f01cb"""" parent=""@style/style_0x7f0f00ff"" />
+    <style name=""""style_0x7f0f01cc"""" parent=""@style/style_0x7f0f0100"" />
+    <style name=""""style_0x7f0f01cd"""" parent=""@style/style_0x7f0f0101"" />
+    <style name=""""style_0x7f0f01ce"""" parent=""@style/style_0x7f0f01cd"" />
+    <style name=""""style_0x7f0f01cf"""" parent=""@style/style_0x7f0f01b1"" />
+    <style name=""""style_0x7f0f01d0"""" parent=""@style/style_0x7f0f01b2"" />
+    <style name=""""style_0x7f0f01d1"""" parent=""@style/style_0x7f0f01b3"" />
+    <style name=""""style_0x7f0f01d2"""" parent=""@style/style_0x7f0f01b4"" />
+    <style name=""""style_0x7f0f01d3"""" parent=""@style/style_0x7f0f01b5"" />
+    <style name=""""style_0x7f0f01d4"""" parent=""@style/style_0x7f0f01b6"" />
+    <style name=""""style_0x7f0f01d5"""" parent=""@style/style_0x7f0f01c3"" />
+    <style name=""""style_0x7f0f01d6"""" parent=""@style/style_0x7f0f01dd"" />
+    <style name=""""style_0x7f0f01d7"""" parent=""@style/style_0x7f0f01df"" />
+    <style name=""""style_0x7f0f01d8"""" parent=""@style/style_0x7f0f0102"" />
+    <style name=""""style_0x7f0f01d9"""" parent=""@style/style_0x7f0f0103"" />
+    <style name=""""style_0x7f0f01da"""" parent=""@style/style_0x7f0f01e9"" />
+    <style name=""""style_0x7f0f01db"""" parent=""@style/style_0x7f0f01ef"" />
+    <style name=""""style_0x7f0f01dc"""" parent=""@style/style_0x7f0f015f"" />
+    <style name=""""style_0x7f0f01dd"""" parent=""@style/style_0x7f0f0104"" />
+    <style name=""""style_0x7f0f01de"""" parent=""@style/style_0x7f0f0105"" />
+    <style name=""""style_0x7f0f01df"""" parent=""@style/style_0x7f0f0106"" />
+    <style name=""""style_0x7f0f01e0"""" parent=""@style/style_0x7f0f0107"" />
+    <style name=""""style_0x7f0f01e1"""" parent=""@style/style_0x7f0f0108"" />
+    <style name=""""style_0x7f0f01e2"""" parent=""@style/style_0x7f0f0109"" />
+    <style name=""""style_0x7f0f01e3"""" parent=""@style/style_0x7f0f0160"" />
+    <style name=""""style_0x7f0f01e4"""" parent=""@style/style_0x7f0f010a"" />
+    <style name=""""style_0x7f0f01e5"""" parent=""@style/style_0x7f0f010b"" />
+    <style name=""""style_0x7f0f01e6"""" parent=""@style/style_0x7f0f010c"" />
+    <style name=""""style_0x7f0f01e7"""" parent=""@style/style_0x7f0f011f"" />
+    <style name=""""style_0x7f0f01e8"""" parent=""@style/style_0x7f0f0120"" />
+    <style name=""""style_0x7f0f01e9"""" parent=""@style/style_0x7f0f0161"" />
+    <style name=""""style_0x7f0f01ea"""" parent=""@style/style_0x7f0f0162"" />
+    <style name=""""style_0x7f0f01eb"""" parent=""@style/style_0x7f0f010d"" />
+    <style name=""""style_0x7f0f01ec"""" parent=""@style/style_0x7f0f0163"" />
+    <style name=""""style_0x7f0f01ed"""" parent=""@style/style_0x7f0f010e"" />
+    <style name=""""style_0x7f0f01ee"""" parent=""@style/style_0x7f0f01ed"" />
+    <style name=""""style_0x7f0f01ef"""" parent=""@style/style_0x7f0f01ee"" />
+    <style name=""""style_0x7f0f01f0"""" parent=""@style/style_0x7f0f00a5"" />
+    <style name=""""style_0x7f0f01f1"""" parent=""@style/style_0x7f0f010f"" />
+    <style name=""""style_0x7f0f01f2"""" parent=""@style/style_0x7f0f0128"" />
+    <style name=""""style_0x7f0f01f3"""" parent=""@style/style_0x7f0f0110"" />
+    <style name=""""style_0x7f0f01f4"""" parent=""@style/style_0x7f0f01a3">"
+        <item name=""""android:windowNoTitle""">true</item>"
+        <item name=""""android:windowContentOverlay""">@null</item>"
+        <item name=""""android:windowFullscreen""">false</item>"
+        <item name=""""android:windowActionBar""">false</item>"
+        <item name=""""attr_0x7f0101d6""">#ff33405b</item>"
+        <item name=""""attr_0x7f0101d7""">#ff33405b</item>"
+        <item name=""""attr_0x7f0101d8""">#ffffe57f</item>"
+    </style>
+    <style name=""""style_0x7f0f01f5"""" parent=""@style/style_0x7f0f019e">"
+        <item name=""""attr_0x7f0101d6""">@color/color_0x7f0e0064</item>"
+        <item name=""""attr_0x7f0101d7""">@color/color_0x7f0e006c</item>"
+        <item name=""""attr_0x7f0101d8""">@color/color_0x7f0e0064</item>"
+    </style>
+    <style name=""""style_0x7f0f01f6"""" parent=""@style/style_0x7f0f01a0">"
+        <item name=""""android:textColor""">#ffffffff</item>"
+        <item name=""""android:background""">@color/color_0x7f0e0069</item>"
+    </style>
+    <style name=""""style_0x7f0f01f7"""" parent=""@android:style/Theme.Holo.Dialog">"
+        <item name=""""android:textColorPrimary""">#ffffffff</item>"
+        <item name=""""android:windowBackground""">@color/color_0x7f0e0067</item>"
+        <item name=""""android:alertDialogStyle""">@style/style_0x7f0f01f8</item>"
+        <item name=""""android:textSize""">12.0sp</item>"
+        <item name=""""android:textStyle""">normal</item>"
+        <item name=""""android:textColor""">#ffffffff</item>"
+        <item name=""""android:backgroundDimEnabled""">false</item>"
+    </style>
+    <style name=""""style_0x7f0f01f8""">"
+        <item name=""""android:fullDark""">@android:color/transparent</item>"
+        <item name=""""android:topDark""">@android:color/transparent</item>"
+        <item name=""""android:centerDark""">@android:color/transparent</item>"
+        <item name=""""android:bottomDark""">@android:color/transparent</item>"
+        <item name=""""android:fullBright""">@android:color/transparent</item>"
+        <item name=""""android:topBright""">@android:color/transparent</item>"
+        <item name=""""android:centerBright""">@android:color/transparent</item>"
+        <item name=""""android:bottomBright""">@android:color/transparent</item>"
+        <item name=""""android:bottomMedium""">@android:color/transparent</item>"
+        <item name=""""android:centerMedium""">@android:color/transparent</item>"
+    </style>
+    <style name=""""style_0x7f0f01f9"""" parent=""@style/style_0x7f0f0199">"
+        <item name=""""android:windowBackground""">@android:color/transparent</item>"
+    </style>
+    <style name=""""style_0x7f0f01fa""">"
+        <item name=""""android:background""">@drawable/drawable_0x7f020056</item>"
+    </style>
+    <style name=""""style_0x7f0f01fb"""" parent=""@style/style_0x7f0f0026">"
+        <item name=""""attr_0x7f0100d6""">@style/style_0x7f0f01fc</item>"
+    </style>
+    <style name=""""style_0x7f0f01fc"""" parent=""@style/style_0x7f0f0168">"
+        <item name=""""android:textSize""">18.0sp</item>"
+        <item name=""""attr_0x7f010179""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f01fd"""" parent=""@style/style_0x7f0f0026">"
+        <item name=""""attr_0x7f0100d6""">@style/style_0x7f0f01fe</item>"
+    </style>
+    <style name=""""style_0x7f0f01fe"""" parent=""@style/style_0x7f0f0168">"
+        <item name=""""android:textSize""">14.0sp</item>"
+        <item name=""""attr_0x7f010179""">true</item>"
+    </style>
+    <style name=""""style_0x7f0f01ff"""" parent=""@style/style_0x7f0f0026">"
+        <item name=""""attr_0x7f0100d6""">@style/style_0x7f0f0200</item>"
+    </style>
+    <style name=""""style_0x7f0f0200"""" parent=""@style/style_0x7f0f0168">"
+        <item name=""""android:textSize""">14.0sp</item>"
+        <item name=""""attr_0x7f010179""">true</item>"
+    </style>
+</resources>
