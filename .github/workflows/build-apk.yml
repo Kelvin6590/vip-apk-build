@@ -38,6 +38,12 @@ jobs:
       - name: Add AAPT2 to PATH
         run: echo "$PWD/tools" >> $GITHUB_PATH
 
+      - name: Clean up backup files (.bakfix)
+        run: |
+          echo "Deleting *.bakfix files..."
+          find ./res -type f -name "*.bakfix" -delete || true
+          echo "Cleanup done."
+
       - name: Build with apktool
         run: |
           mkdir -p tmp
