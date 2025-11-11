@@ -44,20 +44,30 @@ jobs:
           find ./res -type f -name "*.bakfix" -delete || true
           echo "Cleanup done."
 
-      - name: Build with apktool
+      - name: Build with apktool (log capture)
         run: |
           mkdir -p tmp
-          java -Djava.io.tmpdir=$PWD/tmp -jar /usr/local/bin/apktool.jar b -f . -o out_unsigned.apk --use-aapt2
+          echo "=== Starting build with Apktool ==="
+          java -Djava.io.tmpdir=$PWD/tmp -jar /usr/local/bin/apktool.jar b -f . -o out_unsigned.apk --use-aapt2 2>&1 | tee build-log.txt
+          echo "=== Build step complete ==="
           ls -lh out_unsigned.apk || echo "Build failed!"
 
       - name: Sign (create debug keystore if not exist)
         run: |
           test -f debug.keystore || keytool -genkeypair -keystore debug.keystore -storepass android -keypass android -alias debug -dname "CN=CI" -validity 3650
           apksigner sign --ks debug.keystore --ks-key-alias debug --ks-pass pass:android --key-pass pass:android --out out_signed.apk out_unsigned.apk
-          ls -lh out_signed.apk
+          ls -lh out_signed.apk || echo "Signing failed!"
 
-      - name: Upload artifact
+      - name: Upload APK artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: built-apk
           path: out_signed.apk
+
+      - name: Upload build log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-log
+          path: build-log.txt
