@@ -31,8 +31,10 @@ jobs:
           chmod +x ./tools/aapt2
           ls -lh ./tools/aapt2
 
-      - name: Set PATH
-        run: echo "$PWD/tools:$PATH" >> $GITHUB_ENV
+      - - name: Add AAPT2 to PATH
+          run: |
+           echo "PATH=$PATH:$PWD/tools" >> $GITHUB_ENV
+       
 
       - name: Build with apktool
         run: |
