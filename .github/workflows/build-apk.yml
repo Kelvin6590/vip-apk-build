@@ -3,7 +3,9 @@ name: Build APK with Apktool
 on:
   workflow_dispatch:
   push:
-    branches: [ "main", "master" ]
+    branches:
+      - main
+      - master
 
 jobs:
   build:
@@ -34,7 +36,7 @@ jobs:
           ls -lh ./tools/aapt2
 
       - name: Add AAPT2 to PATH
-        run: echo "PATH=$PATH:$PWD/tools" >> $GITHUB_ENV
+        run: echo "$PWD/tools" >> $GITHUB_PATH
 
       - name: Build with apktool
         run: |
