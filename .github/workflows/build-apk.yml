@@ -20,9 +20,11 @@ jobs:
       - name: Install apktool
         run: |
           wget -q -O apktool.jar https://github.com/iBotPeaches/Apktool/releases/download/v2.9.3/apktool_2.9.3.jar
-          echo '#!/bin/bash' > apktool && echo 'java -jar $(pwd)/apktool.jar "$@"' >> apktool
+          echo '#!/bin/bash' > apktool
+          echo 'java -jar $(pwd)/apktool.jar "$@"' >> apktool
           chmod +x apktool
-          sudo mv apktool apktool.jar /usr/local/bin/ || true
+          sudo mv apktool /usr/local/bin/
+          sudo mv apktool.jar /usr/local/bin/
 
       - name: Install AAPT2 (from Android build-tools)
         run: |
@@ -31,15 +33,14 @@ jobs:
           chmod +x ./tools/aapt2
           ls -lh ./tools/aapt2
 
-      - - name: Add AAPT2 to PATH
-          run: |
-           echo "PATH=$PATH:$PWD/tools" >> $GITHUB_ENV
-       
+      - name: Add AAPT2 to PATH
+        run: echo "PATH=$PATH:$PWD/tools" >> $GITHUB_ENV
 
       - name: Build with apktool
         run: |
-          java -Djava.io.tmpdir=$PWD/tmp -jar apktool_2.9.3.jar b -f . -o out_unsigned.apk --use-aapt2
-          ls -lh out_unsigned.apk
+          mkdir -p tmp
+          java -Djava.io.tmpdir=$PWD/tmp -jar /usr/local/bin/apktool.jar b -f . -o out_unsigned.apk --use-aapt2
+          ls -lh out_unsigned.apk || echo "Build failed!"
 
       - name: Sign (create debug keystore if not exist)
         run: |
